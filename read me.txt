@@ -1,0 +1,7 @@
+BulletDynamics
+
+BulletCollision
+
+LinearMath
+
+OpenGL3 (or the relevant GL library for your OS)

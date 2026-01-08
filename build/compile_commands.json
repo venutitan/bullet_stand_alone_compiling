@@ -1,0 +1,104 @@
+[
+{
+  "directory": "G:/earring_demo/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -D_WIN32 @CMakeFiles/BridgeApp.dir/includes_CXX.rsp -g -o CMakeFiles\\BridgeApp.dir\\main.cpp.obj -c G:\\earring_demo\\BridgeDemo\\main.cpp",
+  "file": "G:/earring_demo/BridgeDemo/main.cpp",
+  "output": "CMakeFiles/BridgeApp.dir/main.cpp.obj"
+},
+{
+  "directory": "G:/earring_demo/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -D_WIN32 @CMakeFiles/BridgeApp.dir/includes_CXX.rsp -g -o CMakeFiles\\BridgeApp.dir\\Bridge.cpp.obj -c G:\\earring_demo\\BridgeDemo\\Bridge.cpp",
+  "file": "G:/earring_demo/BridgeDemo/Bridge.cpp",
+  "output": "CMakeFiles/BridgeApp.dir/Bridge.cpp.obj"
+},
+{
+  "directory": "G:/earring_demo/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -D_WIN32 @CMakeFiles/BridgeApp.dir/includes_C.rsp -g -o CMakeFiles\\BridgeApp.dir\\G_\\bullet3\\examples\\ThirdPartyLibs\\glad\\gl.c.obj -c G:\\bullet3\\examples\\ThirdPartyLibs\\glad\\gl.c",
+  "file": "G:/bullet3/examples/ThirdPartyLibs/glad/gl.c",
+  "output": "CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/glad/gl.c.obj"
+},
+{
+  "directory": "G:/earring_demo/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -D_WIN32 @CMakeFiles/BridgeApp.dir/includes_CXX.rsp -g -o CMakeFiles\\BridgeApp.dir\\G_\\bullet3\\examples\\ThirdPartyLibs\\stb_image\\stb_image.cpp.obj -c G:\\bullet3\\examples\\ThirdPartyLibs\\stb_image\\stb_image.cpp",
+  "file": "G:/bullet3/examples/ThirdPartyLibs/stb_image/stb_image.cpp",
+  "output": "CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image.cpp.obj"
+},
+{
+  "directory": "G:/earring_demo/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -D_WIN32 @CMakeFiles/BridgeApp.dir/includes_CXX.rsp -g -o CMakeFiles\\BridgeApp.dir\\G_\\bullet3\\examples\\ThirdPartyLibs\\stb_image\\stb_image_write.cpp.obj -c G:\\bullet3\\examples\\ThirdPartyLibs\\stb_image\\stb_image_write.cpp",
+  "file": "G:/bullet3/examples/ThirdPartyLibs/stb_image/stb_image_write.cpp",
+  "output": "CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image_write.cpp.obj"
+},
+{
+  "directory": "G:/earring_demo/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -D_WIN32 @CMakeFiles/BridgeApp.dir/includes_CXX.rsp -g -o CMakeFiles\\BridgeApp.dir\\G_\\bullet3\\examples\\OpenGLWindow\\Win32Window.cpp.obj -c G:\\bullet3\\examples\\OpenGLWindow\\Win32Window.cpp",
+  "file": "G:/bullet3/examples/OpenGLWindow/Win32Window.cpp",
+  "output": "CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/Win32Window.cpp.obj"
+},
+{
+  "directory": "G:/earring_demo/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -D_WIN32 @CMakeFiles/BridgeApp.dir/includes_CXX.rsp -g -o CMakeFiles\\BridgeApp.dir\\G_\\bullet3\\examples\\OpenGLWindow\\Win32OpenGLWindow.cpp.obj -c G:\\bullet3\\examples\\OpenGLWindow\\Win32OpenGLWindow.cpp",
+  "file": "G:/bullet3/examples/OpenGLWindow/Win32OpenGLWindow.cpp",
+  "output": "CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/Win32OpenGLWindow.cpp.obj"
+},
+{
+  "directory": "G:/earring_demo/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -D_WIN32 @CMakeFiles/BridgeApp.dir/includes_CXX.rsp -g -o CMakeFiles\\BridgeApp.dir\\G_\\bullet3\\examples\\OpenGLWindow\\SimpleOpenGL3App.cpp.obj -c G:\\bullet3\\examples\\OpenGLWindow\\SimpleOpenGL3App.cpp",
+  "file": "G:/bullet3/examples/OpenGLWindow/SimpleOpenGL3App.cpp",
+  "output": "CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/SimpleOpenGL3App.cpp.obj"
+},
+{
+  "directory": "G:/earring_demo/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -D_WIN32 @CMakeFiles/BridgeApp.dir/includes_CXX.rsp -g -o CMakeFiles\\BridgeApp.dir\\G_\\bullet3\\examples\\OpenGLWindow\\SimpleCamera.cpp.obj -c G:\\bullet3\\examples\\OpenGLWindow\\SimpleCamera.cpp",
+  "file": "G:/bullet3/examples/OpenGLWindow/SimpleCamera.cpp",
+  "output": "CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/SimpleCamera.cpp.obj"
+},
+{
+  "directory": "G:/earring_demo/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -D_WIN32 @CMakeFiles/BridgeApp.dir/includes_CXX.rsp -g -o CMakeFiles\\BridgeApp.dir\\G_\\bullet3\\examples\\OpenGLWindow\\fontstash.cpp.obj -c G:\\bullet3\\examples\\OpenGLWindow\\fontstash.cpp",
+  "file": "G:/bullet3/examples/OpenGLWindow/fontstash.cpp",
+  "output": "CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/fontstash.cpp.obj"
+},
+{
+  "directory": "G:/earring_demo/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -D_WIN32 @CMakeFiles/BridgeApp.dir/includes_CXX.rsp -g -o CMakeFiles\\BridgeApp.dir\\G_\\bullet3\\examples\\OpenGLWindow\\opengl_fontstashcallbacks.cpp.obj -c G:\\bullet3\\examples\\OpenGLWindow\\opengl_fontstashcallbacks.cpp",
+  "file": "G:/bullet3/examples/OpenGLWindow/opengl_fontstashcallbacks.cpp",
+  "output": "CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/opengl_fontstashcallbacks.cpp.obj"
+},
+{
+  "directory": "G:/earring_demo/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -D_WIN32 @CMakeFiles/BridgeApp.dir/includes_CXX.rsp -g -o CMakeFiles\\BridgeApp.dir\\G_\\bullet3\\examples\\OpenGLWindow\\GLPrimitiveRenderer.cpp.obj -c G:\\bullet3\\examples\\OpenGLWindow\\GLPrimitiveRenderer.cpp",
+  "file": "G:/bullet3/examples/OpenGLWindow/GLPrimitiveRenderer.cpp",
+  "output": "CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLPrimitiveRenderer.cpp.obj"
+},
+{
+  "directory": "G:/earring_demo/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -D_WIN32 @CMakeFiles/BridgeApp.dir/includes_CXX.rsp -g -o CMakeFiles\\BridgeApp.dir\\G_\\bullet3\\examples\\OpenGLWindow\\GLInstancingRenderer.cpp.obj -c G:\\bullet3\\examples\\OpenGLWindow\\GLInstancingRenderer.cpp",
+  "file": "G:/bullet3/examples/OpenGLWindow/GLInstancingRenderer.cpp",
+  "output": "CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLInstancingRenderer.cpp.obj"
+},
+{
+  "directory": "G:/earring_demo/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -D_WIN32 @CMakeFiles/BridgeApp.dir/includes_CXX.rsp -g -o CMakeFiles\\BridgeApp.dir\\G_\\bullet3\\examples\\OpenGLWindow\\GLRenderToTexture.cpp.obj -c G:\\bullet3\\examples\\OpenGLWindow\\GLRenderToTexture.cpp",
+  "file": "G:/bullet3/examples/OpenGLWindow/GLRenderToTexture.cpp",
+  "output": "CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLRenderToTexture.cpp.obj"
+},
+{
+  "directory": "G:/earring_demo/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -D_WIN32 @CMakeFiles/BridgeApp.dir/includes_CXX.rsp -g -o CMakeFiles\\BridgeApp.dir\\G_\\bullet3\\examples\\OpenGLWindow\\LoadShader.cpp.obj -c G:\\bullet3\\examples\\OpenGLWindow\\LoadShader.cpp",
+  "file": "G:/bullet3/examples/OpenGLWindow/LoadShader.cpp",
+  "output": "CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/LoadShader.cpp.obj"
+},
+{
+  "directory": "G:/earring_demo/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -D_WIN32 @CMakeFiles/BridgeApp.dir/includes_CXX.rsp -g -o CMakeFiles\\BridgeApp.dir\\G_\\bullet3\\examples\\OpenGLWindow\\OpenSans.cpp.obj -c G:\\bullet3\\examples\\OpenGLWindow\\OpenSans.cpp",
+  "file": "G:/bullet3/examples/OpenGLWindow/OpenSans.cpp",
+  "output": "CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/OpenSans.cpp.obj"
+},
+{
+  "directory": "G:/earring_demo/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -D_WIN32 @CMakeFiles/BridgeApp.dir/includes_CXX.rsp -g -o CMakeFiles\\BridgeApp.dir\\G_\\bullet3\\examples\\OpenGLWindow\\TwFonts.cpp.obj -c G:\\bullet3\\examples\\OpenGLWindow\\TwFonts.cpp",
+  "file": "G:/bullet3/examples/OpenGLWindow/TwFonts.cpp",
+  "output": "CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/TwFonts.cpp.obj"
+}
+]
