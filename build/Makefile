@@ -56,10 +56,10 @@ RM = C:\msys64\ucrt64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = G:\earring_demo\BridgeDemo
+CMAKE_SOURCE_DIR = G:\bullet_demo\BridgeDemo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = G:\earring_demo\build
+CMAKE_BINARY_DIR = G:\bullet_demo\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start G:\earring_demo\build\CMakeFiles G:\earring_demo\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start G:\bullet_demo\build\CMakeFiles G:\bullet_demo\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start G:\earring_demo\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start G:\bullet_demo\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -152,365 +152,485 @@ Bridge.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/Bridge.cpp.s
 .PHONY : Bridge.cpp.s
 
-G_/bullet3/examples/OpenGLWindow/GLInstancingRenderer.obj: G_/bullet3/examples/OpenGLWindow/GLInstancingRenderer.cpp.obj
-.PHONY : G_/bullet3/examples/OpenGLWindow/GLInstancingRenderer.obj
+ExampleBrowser/CollisionShape2TriangleMesh.obj: ExampleBrowser/CollisionShape2TriangleMesh.cpp.obj
+.PHONY : ExampleBrowser/CollisionShape2TriangleMesh.obj
 
 # target to build an object file
-G_/bullet3/examples/OpenGLWindow/GLInstancingRenderer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLInstancingRenderer.cpp.obj
-.PHONY : G_/bullet3/examples/OpenGLWindow/GLInstancingRenderer.cpp.obj
+ExampleBrowser/CollisionShape2TriangleMesh.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/ExampleBrowser/CollisionShape2TriangleMesh.cpp.obj
+.PHONY : ExampleBrowser/CollisionShape2TriangleMesh.cpp.obj
 
-G_/bullet3/examples/OpenGLWindow/GLInstancingRenderer.i: G_/bullet3/examples/OpenGLWindow/GLInstancingRenderer.cpp.i
-.PHONY : G_/bullet3/examples/OpenGLWindow/GLInstancingRenderer.i
+ExampleBrowser/CollisionShape2TriangleMesh.i: ExampleBrowser/CollisionShape2TriangleMesh.cpp.i
+.PHONY : ExampleBrowser/CollisionShape2TriangleMesh.i
 
 # target to preprocess a source file
-G_/bullet3/examples/OpenGLWindow/GLInstancingRenderer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLInstancingRenderer.cpp.i
-.PHONY : G_/bullet3/examples/OpenGLWindow/GLInstancingRenderer.cpp.i
+ExampleBrowser/CollisionShape2TriangleMesh.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/ExampleBrowser/CollisionShape2TriangleMesh.cpp.i
+.PHONY : ExampleBrowser/CollisionShape2TriangleMesh.cpp.i
 
-G_/bullet3/examples/OpenGLWindow/GLInstancingRenderer.s: G_/bullet3/examples/OpenGLWindow/GLInstancingRenderer.cpp.s
-.PHONY : G_/bullet3/examples/OpenGLWindow/GLInstancingRenderer.s
+ExampleBrowser/CollisionShape2TriangleMesh.s: ExampleBrowser/CollisionShape2TriangleMesh.cpp.s
+.PHONY : ExampleBrowser/CollisionShape2TriangleMesh.s
 
 # target to generate assembly for a file
-G_/bullet3/examples/OpenGLWindow/GLInstancingRenderer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLInstancingRenderer.cpp.s
-.PHONY : G_/bullet3/examples/OpenGLWindow/GLInstancingRenderer.cpp.s
+ExampleBrowser/CollisionShape2TriangleMesh.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/ExampleBrowser/CollisionShape2TriangleMesh.cpp.s
+.PHONY : ExampleBrowser/CollisionShape2TriangleMesh.cpp.s
 
-G_/bullet3/examples/OpenGLWindow/GLPrimitiveRenderer.obj: G_/bullet3/examples/OpenGLWindow/GLPrimitiveRenderer.cpp.obj
-.PHONY : G_/bullet3/examples/OpenGLWindow/GLPrimitiveRenderer.obj
+ExampleBrowser/OpenGLGuiHelper.obj: ExampleBrowser/OpenGLGuiHelper.cpp.obj
+.PHONY : ExampleBrowser/OpenGLGuiHelper.obj
 
 # target to build an object file
-G_/bullet3/examples/OpenGLWindow/GLPrimitiveRenderer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLPrimitiveRenderer.cpp.obj
-.PHONY : G_/bullet3/examples/OpenGLWindow/GLPrimitiveRenderer.cpp.obj
+ExampleBrowser/OpenGLGuiHelper.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/ExampleBrowser/OpenGLGuiHelper.cpp.obj
+.PHONY : ExampleBrowser/OpenGLGuiHelper.cpp.obj
 
-G_/bullet3/examples/OpenGLWindow/GLPrimitiveRenderer.i: G_/bullet3/examples/OpenGLWindow/GLPrimitiveRenderer.cpp.i
-.PHONY : G_/bullet3/examples/OpenGLWindow/GLPrimitiveRenderer.i
+ExampleBrowser/OpenGLGuiHelper.i: ExampleBrowser/OpenGLGuiHelper.cpp.i
+.PHONY : ExampleBrowser/OpenGLGuiHelper.i
 
 # target to preprocess a source file
-G_/bullet3/examples/OpenGLWindow/GLPrimitiveRenderer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLPrimitiveRenderer.cpp.i
-.PHONY : G_/bullet3/examples/OpenGLWindow/GLPrimitiveRenderer.cpp.i
+ExampleBrowser/OpenGLGuiHelper.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/ExampleBrowser/OpenGLGuiHelper.cpp.i
+.PHONY : ExampleBrowser/OpenGLGuiHelper.cpp.i
 
-G_/bullet3/examples/OpenGLWindow/GLPrimitiveRenderer.s: G_/bullet3/examples/OpenGLWindow/GLPrimitiveRenderer.cpp.s
-.PHONY : G_/bullet3/examples/OpenGLWindow/GLPrimitiveRenderer.s
+ExampleBrowser/OpenGLGuiHelper.s: ExampleBrowser/OpenGLGuiHelper.cpp.s
+.PHONY : ExampleBrowser/OpenGLGuiHelper.s
 
 # target to generate assembly for a file
-G_/bullet3/examples/OpenGLWindow/GLPrimitiveRenderer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLPrimitiveRenderer.cpp.s
-.PHONY : G_/bullet3/examples/OpenGLWindow/GLPrimitiveRenderer.cpp.s
+ExampleBrowser/OpenGLGuiHelper.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/ExampleBrowser/OpenGLGuiHelper.cpp.s
+.PHONY : ExampleBrowser/OpenGLGuiHelper.cpp.s
 
-G_/bullet3/examples/OpenGLWindow/GLRenderToTexture.obj: G_/bullet3/examples/OpenGLWindow/GLRenderToTexture.cpp.obj
-.PHONY : G_/bullet3/examples/OpenGLWindow/GLRenderToTexture.obj
+Importers/ImportObjDemo/Wavefront2GLInstanceGraphicsShape.obj: Importers/ImportObjDemo/Wavefront2GLInstanceGraphicsShape.cpp.obj
+.PHONY : Importers/ImportObjDemo/Wavefront2GLInstanceGraphicsShape.obj
 
 # target to build an object file
-G_/bullet3/examples/OpenGLWindow/GLRenderToTexture.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLRenderToTexture.cpp.obj
-.PHONY : G_/bullet3/examples/OpenGLWindow/GLRenderToTexture.cpp.obj
+Importers/ImportObjDemo/Wavefront2GLInstanceGraphicsShape.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/Importers/ImportObjDemo/Wavefront2GLInstanceGraphicsShape.cpp.obj
+.PHONY : Importers/ImportObjDemo/Wavefront2GLInstanceGraphicsShape.cpp.obj
 
-G_/bullet3/examples/OpenGLWindow/GLRenderToTexture.i: G_/bullet3/examples/OpenGLWindow/GLRenderToTexture.cpp.i
-.PHONY : G_/bullet3/examples/OpenGLWindow/GLRenderToTexture.i
+Importers/ImportObjDemo/Wavefront2GLInstanceGraphicsShape.i: Importers/ImportObjDemo/Wavefront2GLInstanceGraphicsShape.cpp.i
+.PHONY : Importers/ImportObjDemo/Wavefront2GLInstanceGraphicsShape.i
 
 # target to preprocess a source file
-G_/bullet3/examples/OpenGLWindow/GLRenderToTexture.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLRenderToTexture.cpp.i
-.PHONY : G_/bullet3/examples/OpenGLWindow/GLRenderToTexture.cpp.i
+Importers/ImportObjDemo/Wavefront2GLInstanceGraphicsShape.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/Importers/ImportObjDemo/Wavefront2GLInstanceGraphicsShape.cpp.i
+.PHONY : Importers/ImportObjDemo/Wavefront2GLInstanceGraphicsShape.cpp.i
 
-G_/bullet3/examples/OpenGLWindow/GLRenderToTexture.s: G_/bullet3/examples/OpenGLWindow/GLRenderToTexture.cpp.s
-.PHONY : G_/bullet3/examples/OpenGLWindow/GLRenderToTexture.s
+Importers/ImportObjDemo/Wavefront2GLInstanceGraphicsShape.s: Importers/ImportObjDemo/Wavefront2GLInstanceGraphicsShape.cpp.s
+.PHONY : Importers/ImportObjDemo/Wavefront2GLInstanceGraphicsShape.s
 
 # target to generate assembly for a file
-G_/bullet3/examples/OpenGLWindow/GLRenderToTexture.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLRenderToTexture.cpp.s
-.PHONY : G_/bullet3/examples/OpenGLWindow/GLRenderToTexture.cpp.s
+Importers/ImportObjDemo/Wavefront2GLInstanceGraphicsShape.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/Importers/ImportObjDemo/Wavefront2GLInstanceGraphicsShape.cpp.s
+.PHONY : Importers/ImportObjDemo/Wavefront2GLInstanceGraphicsShape.cpp.s
 
-G_/bullet3/examples/OpenGLWindow/LoadShader.obj: G_/bullet3/examples/OpenGLWindow/LoadShader.cpp.obj
-.PHONY : G_/bullet3/examples/OpenGLWindow/LoadShader.obj
+Importers/ImportSTLDemo/ImportSTLSetup.obj: Importers/ImportSTLDemo/ImportSTLSetup.cpp.obj
+.PHONY : Importers/ImportSTLDemo/ImportSTLSetup.obj
 
 # target to build an object file
-G_/bullet3/examples/OpenGLWindow/LoadShader.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/LoadShader.cpp.obj
-.PHONY : G_/bullet3/examples/OpenGLWindow/LoadShader.cpp.obj
+Importers/ImportSTLDemo/ImportSTLSetup.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/Importers/ImportSTLDemo/ImportSTLSetup.cpp.obj
+.PHONY : Importers/ImportSTLDemo/ImportSTLSetup.cpp.obj
 
-G_/bullet3/examples/OpenGLWindow/LoadShader.i: G_/bullet3/examples/OpenGLWindow/LoadShader.cpp.i
-.PHONY : G_/bullet3/examples/OpenGLWindow/LoadShader.i
+Importers/ImportSTLDemo/ImportSTLSetup.i: Importers/ImportSTLDemo/ImportSTLSetup.cpp.i
+.PHONY : Importers/ImportSTLDemo/ImportSTLSetup.i
 
 # target to preprocess a source file
-G_/bullet3/examples/OpenGLWindow/LoadShader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/LoadShader.cpp.i
-.PHONY : G_/bullet3/examples/OpenGLWindow/LoadShader.cpp.i
+Importers/ImportSTLDemo/ImportSTLSetup.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/Importers/ImportSTLDemo/ImportSTLSetup.cpp.i
+.PHONY : Importers/ImportSTLDemo/ImportSTLSetup.cpp.i
 
-G_/bullet3/examples/OpenGLWindow/LoadShader.s: G_/bullet3/examples/OpenGLWindow/LoadShader.cpp.s
-.PHONY : G_/bullet3/examples/OpenGLWindow/LoadShader.s
+Importers/ImportSTLDemo/ImportSTLSetup.s: Importers/ImportSTLDemo/ImportSTLSetup.cpp.s
+.PHONY : Importers/ImportSTLDemo/ImportSTLSetup.s
 
 # target to generate assembly for a file
-G_/bullet3/examples/OpenGLWindow/LoadShader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/LoadShader.cpp.s
-.PHONY : G_/bullet3/examples/OpenGLWindow/LoadShader.cpp.s
+Importers/ImportSTLDemo/ImportSTLSetup.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/Importers/ImportSTLDemo/ImportSTLSetup.cpp.s
+.PHONY : Importers/ImportSTLDemo/ImportSTLSetup.cpp.s
 
-G_/bullet3/examples/OpenGLWindow/OpenSans.obj: G_/bullet3/examples/OpenGLWindow/OpenSans.cpp.obj
-.PHONY : G_/bullet3/examples/OpenGLWindow/OpenSans.obj
+OpenGLWindow/GLInstancingRenderer.obj: OpenGLWindow/GLInstancingRenderer.cpp.obj
+.PHONY : OpenGLWindow/GLInstancingRenderer.obj
 
 # target to build an object file
-G_/bullet3/examples/OpenGLWindow/OpenSans.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/OpenSans.cpp.obj
-.PHONY : G_/bullet3/examples/OpenGLWindow/OpenSans.cpp.obj
+OpenGLWindow/GLInstancingRenderer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/OpenGLWindow/GLInstancingRenderer.cpp.obj
+.PHONY : OpenGLWindow/GLInstancingRenderer.cpp.obj
 
-G_/bullet3/examples/OpenGLWindow/OpenSans.i: G_/bullet3/examples/OpenGLWindow/OpenSans.cpp.i
-.PHONY : G_/bullet3/examples/OpenGLWindow/OpenSans.i
+OpenGLWindow/GLInstancingRenderer.i: OpenGLWindow/GLInstancingRenderer.cpp.i
+.PHONY : OpenGLWindow/GLInstancingRenderer.i
 
 # target to preprocess a source file
-G_/bullet3/examples/OpenGLWindow/OpenSans.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/OpenSans.cpp.i
-.PHONY : G_/bullet3/examples/OpenGLWindow/OpenSans.cpp.i
+OpenGLWindow/GLInstancingRenderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/OpenGLWindow/GLInstancingRenderer.cpp.i
+.PHONY : OpenGLWindow/GLInstancingRenderer.cpp.i
 
-G_/bullet3/examples/OpenGLWindow/OpenSans.s: G_/bullet3/examples/OpenGLWindow/OpenSans.cpp.s
-.PHONY : G_/bullet3/examples/OpenGLWindow/OpenSans.s
+OpenGLWindow/GLInstancingRenderer.s: OpenGLWindow/GLInstancingRenderer.cpp.s
+.PHONY : OpenGLWindow/GLInstancingRenderer.s
 
 # target to generate assembly for a file
-G_/bullet3/examples/OpenGLWindow/OpenSans.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/OpenSans.cpp.s
-.PHONY : G_/bullet3/examples/OpenGLWindow/OpenSans.cpp.s
+OpenGLWindow/GLInstancingRenderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/OpenGLWindow/GLInstancingRenderer.cpp.s
+.PHONY : OpenGLWindow/GLInstancingRenderer.cpp.s
 
-G_/bullet3/examples/OpenGLWindow/SimpleCamera.obj: G_/bullet3/examples/OpenGLWindow/SimpleCamera.cpp.obj
-.PHONY : G_/bullet3/examples/OpenGLWindow/SimpleCamera.obj
+OpenGLWindow/GLPrimitiveRenderer.obj: OpenGLWindow/GLPrimitiveRenderer.cpp.obj
+.PHONY : OpenGLWindow/GLPrimitiveRenderer.obj
 
 # target to build an object file
-G_/bullet3/examples/OpenGLWindow/SimpleCamera.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/SimpleCamera.cpp.obj
-.PHONY : G_/bullet3/examples/OpenGLWindow/SimpleCamera.cpp.obj
+OpenGLWindow/GLPrimitiveRenderer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/OpenGLWindow/GLPrimitiveRenderer.cpp.obj
+.PHONY : OpenGLWindow/GLPrimitiveRenderer.cpp.obj
 
-G_/bullet3/examples/OpenGLWindow/SimpleCamera.i: G_/bullet3/examples/OpenGLWindow/SimpleCamera.cpp.i
-.PHONY : G_/bullet3/examples/OpenGLWindow/SimpleCamera.i
+OpenGLWindow/GLPrimitiveRenderer.i: OpenGLWindow/GLPrimitiveRenderer.cpp.i
+.PHONY : OpenGLWindow/GLPrimitiveRenderer.i
 
 # target to preprocess a source file
-G_/bullet3/examples/OpenGLWindow/SimpleCamera.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/SimpleCamera.cpp.i
-.PHONY : G_/bullet3/examples/OpenGLWindow/SimpleCamera.cpp.i
+OpenGLWindow/GLPrimitiveRenderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/OpenGLWindow/GLPrimitiveRenderer.cpp.i
+.PHONY : OpenGLWindow/GLPrimitiveRenderer.cpp.i
 
-G_/bullet3/examples/OpenGLWindow/SimpleCamera.s: G_/bullet3/examples/OpenGLWindow/SimpleCamera.cpp.s
-.PHONY : G_/bullet3/examples/OpenGLWindow/SimpleCamera.s
+OpenGLWindow/GLPrimitiveRenderer.s: OpenGLWindow/GLPrimitiveRenderer.cpp.s
+.PHONY : OpenGLWindow/GLPrimitiveRenderer.s
 
 # target to generate assembly for a file
-G_/bullet3/examples/OpenGLWindow/SimpleCamera.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/SimpleCamera.cpp.s
-.PHONY : G_/bullet3/examples/OpenGLWindow/SimpleCamera.cpp.s
+OpenGLWindow/GLPrimitiveRenderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/OpenGLWindow/GLPrimitiveRenderer.cpp.s
+.PHONY : OpenGLWindow/GLPrimitiveRenderer.cpp.s
 
-G_/bullet3/examples/OpenGLWindow/SimpleOpenGL3App.obj: G_/bullet3/examples/OpenGLWindow/SimpleOpenGL3App.cpp.obj
-.PHONY : G_/bullet3/examples/OpenGLWindow/SimpleOpenGL3App.obj
+OpenGLWindow/GLRenderToTexture.obj: OpenGLWindow/GLRenderToTexture.cpp.obj
+.PHONY : OpenGLWindow/GLRenderToTexture.obj
 
 # target to build an object file
-G_/bullet3/examples/OpenGLWindow/SimpleOpenGL3App.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/SimpleOpenGL3App.cpp.obj
-.PHONY : G_/bullet3/examples/OpenGLWindow/SimpleOpenGL3App.cpp.obj
+OpenGLWindow/GLRenderToTexture.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/OpenGLWindow/GLRenderToTexture.cpp.obj
+.PHONY : OpenGLWindow/GLRenderToTexture.cpp.obj
 
-G_/bullet3/examples/OpenGLWindow/SimpleOpenGL3App.i: G_/bullet3/examples/OpenGLWindow/SimpleOpenGL3App.cpp.i
-.PHONY : G_/bullet3/examples/OpenGLWindow/SimpleOpenGL3App.i
+OpenGLWindow/GLRenderToTexture.i: OpenGLWindow/GLRenderToTexture.cpp.i
+.PHONY : OpenGLWindow/GLRenderToTexture.i
 
 # target to preprocess a source file
-G_/bullet3/examples/OpenGLWindow/SimpleOpenGL3App.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/SimpleOpenGL3App.cpp.i
-.PHONY : G_/bullet3/examples/OpenGLWindow/SimpleOpenGL3App.cpp.i
+OpenGLWindow/GLRenderToTexture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/OpenGLWindow/GLRenderToTexture.cpp.i
+.PHONY : OpenGLWindow/GLRenderToTexture.cpp.i
 
-G_/bullet3/examples/OpenGLWindow/SimpleOpenGL3App.s: G_/bullet3/examples/OpenGLWindow/SimpleOpenGL3App.cpp.s
-.PHONY : G_/bullet3/examples/OpenGLWindow/SimpleOpenGL3App.s
+OpenGLWindow/GLRenderToTexture.s: OpenGLWindow/GLRenderToTexture.cpp.s
+.PHONY : OpenGLWindow/GLRenderToTexture.s
 
 # target to generate assembly for a file
-G_/bullet3/examples/OpenGLWindow/SimpleOpenGL3App.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/SimpleOpenGL3App.cpp.s
-.PHONY : G_/bullet3/examples/OpenGLWindow/SimpleOpenGL3App.cpp.s
+OpenGLWindow/GLRenderToTexture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/OpenGLWindow/GLRenderToTexture.cpp.s
+.PHONY : OpenGLWindow/GLRenderToTexture.cpp.s
 
-G_/bullet3/examples/OpenGLWindow/TwFonts.obj: G_/bullet3/examples/OpenGLWindow/TwFonts.cpp.obj
-.PHONY : G_/bullet3/examples/OpenGLWindow/TwFonts.obj
+OpenGLWindow/LoadShader.obj: OpenGLWindow/LoadShader.cpp.obj
+.PHONY : OpenGLWindow/LoadShader.obj
 
 # target to build an object file
-G_/bullet3/examples/OpenGLWindow/TwFonts.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/TwFonts.cpp.obj
-.PHONY : G_/bullet3/examples/OpenGLWindow/TwFonts.cpp.obj
+OpenGLWindow/LoadShader.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/OpenGLWindow/LoadShader.cpp.obj
+.PHONY : OpenGLWindow/LoadShader.cpp.obj
 
-G_/bullet3/examples/OpenGLWindow/TwFonts.i: G_/bullet3/examples/OpenGLWindow/TwFonts.cpp.i
-.PHONY : G_/bullet3/examples/OpenGLWindow/TwFonts.i
+OpenGLWindow/LoadShader.i: OpenGLWindow/LoadShader.cpp.i
+.PHONY : OpenGLWindow/LoadShader.i
 
 # target to preprocess a source file
-G_/bullet3/examples/OpenGLWindow/TwFonts.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/TwFonts.cpp.i
-.PHONY : G_/bullet3/examples/OpenGLWindow/TwFonts.cpp.i
+OpenGLWindow/LoadShader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/OpenGLWindow/LoadShader.cpp.i
+.PHONY : OpenGLWindow/LoadShader.cpp.i
 
-G_/bullet3/examples/OpenGLWindow/TwFonts.s: G_/bullet3/examples/OpenGLWindow/TwFonts.cpp.s
-.PHONY : G_/bullet3/examples/OpenGLWindow/TwFonts.s
+OpenGLWindow/LoadShader.s: OpenGLWindow/LoadShader.cpp.s
+.PHONY : OpenGLWindow/LoadShader.s
 
 # target to generate assembly for a file
-G_/bullet3/examples/OpenGLWindow/TwFonts.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/TwFonts.cpp.s
-.PHONY : G_/bullet3/examples/OpenGLWindow/TwFonts.cpp.s
+OpenGLWindow/LoadShader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/OpenGLWindow/LoadShader.cpp.s
+.PHONY : OpenGLWindow/LoadShader.cpp.s
 
-G_/bullet3/examples/OpenGLWindow/Win32OpenGLWindow.obj: G_/bullet3/examples/OpenGLWindow/Win32OpenGLWindow.cpp.obj
-.PHONY : G_/bullet3/examples/OpenGLWindow/Win32OpenGLWindow.obj
+OpenGLWindow/OpenSans.obj: OpenGLWindow/OpenSans.cpp.obj
+.PHONY : OpenGLWindow/OpenSans.obj
 
 # target to build an object file
-G_/bullet3/examples/OpenGLWindow/Win32OpenGLWindow.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/Win32OpenGLWindow.cpp.obj
-.PHONY : G_/bullet3/examples/OpenGLWindow/Win32OpenGLWindow.cpp.obj
+OpenGLWindow/OpenSans.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/OpenGLWindow/OpenSans.cpp.obj
+.PHONY : OpenGLWindow/OpenSans.cpp.obj
 
-G_/bullet3/examples/OpenGLWindow/Win32OpenGLWindow.i: G_/bullet3/examples/OpenGLWindow/Win32OpenGLWindow.cpp.i
-.PHONY : G_/bullet3/examples/OpenGLWindow/Win32OpenGLWindow.i
+OpenGLWindow/OpenSans.i: OpenGLWindow/OpenSans.cpp.i
+.PHONY : OpenGLWindow/OpenSans.i
 
 # target to preprocess a source file
-G_/bullet3/examples/OpenGLWindow/Win32OpenGLWindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/Win32OpenGLWindow.cpp.i
-.PHONY : G_/bullet3/examples/OpenGLWindow/Win32OpenGLWindow.cpp.i
+OpenGLWindow/OpenSans.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/OpenGLWindow/OpenSans.cpp.i
+.PHONY : OpenGLWindow/OpenSans.cpp.i
 
-G_/bullet3/examples/OpenGLWindow/Win32OpenGLWindow.s: G_/bullet3/examples/OpenGLWindow/Win32OpenGLWindow.cpp.s
-.PHONY : G_/bullet3/examples/OpenGLWindow/Win32OpenGLWindow.s
+OpenGLWindow/OpenSans.s: OpenGLWindow/OpenSans.cpp.s
+.PHONY : OpenGLWindow/OpenSans.s
 
 # target to generate assembly for a file
-G_/bullet3/examples/OpenGLWindow/Win32OpenGLWindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/Win32OpenGLWindow.cpp.s
-.PHONY : G_/bullet3/examples/OpenGLWindow/Win32OpenGLWindow.cpp.s
+OpenGLWindow/OpenSans.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/OpenGLWindow/OpenSans.cpp.s
+.PHONY : OpenGLWindow/OpenSans.cpp.s
 
-G_/bullet3/examples/OpenGLWindow/Win32Window.obj: G_/bullet3/examples/OpenGLWindow/Win32Window.cpp.obj
-.PHONY : G_/bullet3/examples/OpenGLWindow/Win32Window.obj
+OpenGLWindow/SimpleCamera.obj: OpenGLWindow/SimpleCamera.cpp.obj
+.PHONY : OpenGLWindow/SimpleCamera.obj
 
 # target to build an object file
-G_/bullet3/examples/OpenGLWindow/Win32Window.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/Win32Window.cpp.obj
-.PHONY : G_/bullet3/examples/OpenGLWindow/Win32Window.cpp.obj
+OpenGLWindow/SimpleCamera.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/OpenGLWindow/SimpleCamera.cpp.obj
+.PHONY : OpenGLWindow/SimpleCamera.cpp.obj
 
-G_/bullet3/examples/OpenGLWindow/Win32Window.i: G_/bullet3/examples/OpenGLWindow/Win32Window.cpp.i
-.PHONY : G_/bullet3/examples/OpenGLWindow/Win32Window.i
+OpenGLWindow/SimpleCamera.i: OpenGLWindow/SimpleCamera.cpp.i
+.PHONY : OpenGLWindow/SimpleCamera.i
 
 # target to preprocess a source file
-G_/bullet3/examples/OpenGLWindow/Win32Window.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/Win32Window.cpp.i
-.PHONY : G_/bullet3/examples/OpenGLWindow/Win32Window.cpp.i
+OpenGLWindow/SimpleCamera.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/OpenGLWindow/SimpleCamera.cpp.i
+.PHONY : OpenGLWindow/SimpleCamera.cpp.i
 
-G_/bullet3/examples/OpenGLWindow/Win32Window.s: G_/bullet3/examples/OpenGLWindow/Win32Window.cpp.s
-.PHONY : G_/bullet3/examples/OpenGLWindow/Win32Window.s
+OpenGLWindow/SimpleCamera.s: OpenGLWindow/SimpleCamera.cpp.s
+.PHONY : OpenGLWindow/SimpleCamera.s
 
 # target to generate assembly for a file
-G_/bullet3/examples/OpenGLWindow/Win32Window.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/Win32Window.cpp.s
-.PHONY : G_/bullet3/examples/OpenGLWindow/Win32Window.cpp.s
+OpenGLWindow/SimpleCamera.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/OpenGLWindow/SimpleCamera.cpp.s
+.PHONY : OpenGLWindow/SimpleCamera.cpp.s
 
-G_/bullet3/examples/OpenGLWindow/fontstash.obj: G_/bullet3/examples/OpenGLWindow/fontstash.cpp.obj
-.PHONY : G_/bullet3/examples/OpenGLWindow/fontstash.obj
+OpenGLWindow/SimpleOpenGL3App.obj: OpenGLWindow/SimpleOpenGL3App.cpp.obj
+.PHONY : OpenGLWindow/SimpleOpenGL3App.obj
 
 # target to build an object file
-G_/bullet3/examples/OpenGLWindow/fontstash.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/fontstash.cpp.obj
-.PHONY : G_/bullet3/examples/OpenGLWindow/fontstash.cpp.obj
+OpenGLWindow/SimpleOpenGL3App.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/OpenGLWindow/SimpleOpenGL3App.cpp.obj
+.PHONY : OpenGLWindow/SimpleOpenGL3App.cpp.obj
 
-G_/bullet3/examples/OpenGLWindow/fontstash.i: G_/bullet3/examples/OpenGLWindow/fontstash.cpp.i
-.PHONY : G_/bullet3/examples/OpenGLWindow/fontstash.i
+OpenGLWindow/SimpleOpenGL3App.i: OpenGLWindow/SimpleOpenGL3App.cpp.i
+.PHONY : OpenGLWindow/SimpleOpenGL3App.i
 
 # target to preprocess a source file
-G_/bullet3/examples/OpenGLWindow/fontstash.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/fontstash.cpp.i
-.PHONY : G_/bullet3/examples/OpenGLWindow/fontstash.cpp.i
+OpenGLWindow/SimpleOpenGL3App.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/OpenGLWindow/SimpleOpenGL3App.cpp.i
+.PHONY : OpenGLWindow/SimpleOpenGL3App.cpp.i
 
-G_/bullet3/examples/OpenGLWindow/fontstash.s: G_/bullet3/examples/OpenGLWindow/fontstash.cpp.s
-.PHONY : G_/bullet3/examples/OpenGLWindow/fontstash.s
+OpenGLWindow/SimpleOpenGL3App.s: OpenGLWindow/SimpleOpenGL3App.cpp.s
+.PHONY : OpenGLWindow/SimpleOpenGL3App.s
 
 # target to generate assembly for a file
-G_/bullet3/examples/OpenGLWindow/fontstash.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/fontstash.cpp.s
-.PHONY : G_/bullet3/examples/OpenGLWindow/fontstash.cpp.s
+OpenGLWindow/SimpleOpenGL3App.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/OpenGLWindow/SimpleOpenGL3App.cpp.s
+.PHONY : OpenGLWindow/SimpleOpenGL3App.cpp.s
 
-G_/bullet3/examples/OpenGLWindow/opengl_fontstashcallbacks.obj: G_/bullet3/examples/OpenGLWindow/opengl_fontstashcallbacks.cpp.obj
-.PHONY : G_/bullet3/examples/OpenGLWindow/opengl_fontstashcallbacks.obj
+OpenGLWindow/TwFonts.obj: OpenGLWindow/TwFonts.cpp.obj
+.PHONY : OpenGLWindow/TwFonts.obj
 
 # target to build an object file
-G_/bullet3/examples/OpenGLWindow/opengl_fontstashcallbacks.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/opengl_fontstashcallbacks.cpp.obj
-.PHONY : G_/bullet3/examples/OpenGLWindow/opengl_fontstashcallbacks.cpp.obj
+OpenGLWindow/TwFonts.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/OpenGLWindow/TwFonts.cpp.obj
+.PHONY : OpenGLWindow/TwFonts.cpp.obj
 
-G_/bullet3/examples/OpenGLWindow/opengl_fontstashcallbacks.i: G_/bullet3/examples/OpenGLWindow/opengl_fontstashcallbacks.cpp.i
-.PHONY : G_/bullet3/examples/OpenGLWindow/opengl_fontstashcallbacks.i
+OpenGLWindow/TwFonts.i: OpenGLWindow/TwFonts.cpp.i
+.PHONY : OpenGLWindow/TwFonts.i
 
 # target to preprocess a source file
-G_/bullet3/examples/OpenGLWindow/opengl_fontstashcallbacks.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/opengl_fontstashcallbacks.cpp.i
-.PHONY : G_/bullet3/examples/OpenGLWindow/opengl_fontstashcallbacks.cpp.i
+OpenGLWindow/TwFonts.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/OpenGLWindow/TwFonts.cpp.i
+.PHONY : OpenGLWindow/TwFonts.cpp.i
 
-G_/bullet3/examples/OpenGLWindow/opengl_fontstashcallbacks.s: G_/bullet3/examples/OpenGLWindow/opengl_fontstashcallbacks.cpp.s
-.PHONY : G_/bullet3/examples/OpenGLWindow/opengl_fontstashcallbacks.s
+OpenGLWindow/TwFonts.s: OpenGLWindow/TwFonts.cpp.s
+.PHONY : OpenGLWindow/TwFonts.s
 
 # target to generate assembly for a file
-G_/bullet3/examples/OpenGLWindow/opengl_fontstashcallbacks.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/opengl_fontstashcallbacks.cpp.s
-.PHONY : G_/bullet3/examples/OpenGLWindow/opengl_fontstashcallbacks.cpp.s
+OpenGLWindow/TwFonts.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/OpenGLWindow/TwFonts.cpp.s
+.PHONY : OpenGLWindow/TwFonts.cpp.s
 
-G_/bullet3/examples/ThirdPartyLibs/glad/gl.obj: G_/bullet3/examples/ThirdPartyLibs/glad/gl.c.obj
-.PHONY : G_/bullet3/examples/ThirdPartyLibs/glad/gl.obj
+OpenGLWindow/Win32OpenGLWindow.obj: OpenGLWindow/Win32OpenGLWindow.cpp.obj
+.PHONY : OpenGLWindow/Win32OpenGLWindow.obj
 
 # target to build an object file
-G_/bullet3/examples/ThirdPartyLibs/glad/gl.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/glad/gl.c.obj
-.PHONY : G_/bullet3/examples/ThirdPartyLibs/glad/gl.c.obj
+OpenGLWindow/Win32OpenGLWindow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/OpenGLWindow/Win32OpenGLWindow.cpp.obj
+.PHONY : OpenGLWindow/Win32OpenGLWindow.cpp.obj
 
-G_/bullet3/examples/ThirdPartyLibs/glad/gl.i: G_/bullet3/examples/ThirdPartyLibs/glad/gl.c.i
-.PHONY : G_/bullet3/examples/ThirdPartyLibs/glad/gl.i
+OpenGLWindow/Win32OpenGLWindow.i: OpenGLWindow/Win32OpenGLWindow.cpp.i
+.PHONY : OpenGLWindow/Win32OpenGLWindow.i
 
 # target to preprocess a source file
-G_/bullet3/examples/ThirdPartyLibs/glad/gl.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/glad/gl.c.i
-.PHONY : G_/bullet3/examples/ThirdPartyLibs/glad/gl.c.i
+OpenGLWindow/Win32OpenGLWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/OpenGLWindow/Win32OpenGLWindow.cpp.i
+.PHONY : OpenGLWindow/Win32OpenGLWindow.cpp.i
 
-G_/bullet3/examples/ThirdPartyLibs/glad/gl.s: G_/bullet3/examples/ThirdPartyLibs/glad/gl.c.s
-.PHONY : G_/bullet3/examples/ThirdPartyLibs/glad/gl.s
+OpenGLWindow/Win32OpenGLWindow.s: OpenGLWindow/Win32OpenGLWindow.cpp.s
+.PHONY : OpenGLWindow/Win32OpenGLWindow.s
 
 # target to generate assembly for a file
-G_/bullet3/examples/ThirdPartyLibs/glad/gl.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/glad/gl.c.s
-.PHONY : G_/bullet3/examples/ThirdPartyLibs/glad/gl.c.s
+OpenGLWindow/Win32OpenGLWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/OpenGLWindow/Win32OpenGLWindow.cpp.s
+.PHONY : OpenGLWindow/Win32OpenGLWindow.cpp.s
 
-G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image.obj: G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image.cpp.obj
-.PHONY : G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image.obj
+OpenGLWindow/Win32Window.obj: OpenGLWindow/Win32Window.cpp.obj
+.PHONY : OpenGLWindow/Win32Window.obj
 
 # target to build an object file
-G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image.cpp.obj
-.PHONY : G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image.cpp.obj
+OpenGLWindow/Win32Window.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/OpenGLWindow/Win32Window.cpp.obj
+.PHONY : OpenGLWindow/Win32Window.cpp.obj
 
-G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image.i: G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image.cpp.i
-.PHONY : G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image.i
+OpenGLWindow/Win32Window.i: OpenGLWindow/Win32Window.cpp.i
+.PHONY : OpenGLWindow/Win32Window.i
 
 # target to preprocess a source file
-G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image.cpp.i
-.PHONY : G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image.cpp.i
+OpenGLWindow/Win32Window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/OpenGLWindow/Win32Window.cpp.i
+.PHONY : OpenGLWindow/Win32Window.cpp.i
 
-G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image.s: G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image.cpp.s
-.PHONY : G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image.s
+OpenGLWindow/Win32Window.s: OpenGLWindow/Win32Window.cpp.s
+.PHONY : OpenGLWindow/Win32Window.s
 
 # target to generate assembly for a file
-G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image.cpp.s
-.PHONY : G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image.cpp.s
+OpenGLWindow/Win32Window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/OpenGLWindow/Win32Window.cpp.s
+.PHONY : OpenGLWindow/Win32Window.cpp.s
 
-G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image_write.obj: G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image_write.cpp.obj
-.PHONY : G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image_write.obj
+OpenGLWindow/fontstash.obj: OpenGLWindow/fontstash.cpp.obj
+.PHONY : OpenGLWindow/fontstash.obj
 
 # target to build an object file
-G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image_write.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image_write.cpp.obj
-.PHONY : G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image_write.cpp.obj
+OpenGLWindow/fontstash.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/OpenGLWindow/fontstash.cpp.obj
+.PHONY : OpenGLWindow/fontstash.cpp.obj
 
-G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image_write.i: G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image_write.cpp.i
-.PHONY : G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image_write.i
+OpenGLWindow/fontstash.i: OpenGLWindow/fontstash.cpp.i
+.PHONY : OpenGLWindow/fontstash.i
 
 # target to preprocess a source file
-G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image_write.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image_write.cpp.i
-.PHONY : G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image_write.cpp.i
+OpenGLWindow/fontstash.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/OpenGLWindow/fontstash.cpp.i
+.PHONY : OpenGLWindow/fontstash.cpp.i
 
-G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image_write.s: G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image_write.cpp.s
-.PHONY : G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image_write.s
+OpenGLWindow/fontstash.s: OpenGLWindow/fontstash.cpp.s
+.PHONY : OpenGLWindow/fontstash.s
 
 # target to generate assembly for a file
-G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image_write.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image_write.cpp.s
-.PHONY : G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image_write.cpp.s
+OpenGLWindow/fontstash.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/OpenGLWindow/fontstash.cpp.s
+.PHONY : OpenGLWindow/fontstash.cpp.s
+
+OpenGLWindow/opengl_fontstashcallbacks.obj: OpenGLWindow/opengl_fontstashcallbacks.cpp.obj
+.PHONY : OpenGLWindow/opengl_fontstashcallbacks.obj
+
+# target to build an object file
+OpenGLWindow/opengl_fontstashcallbacks.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/OpenGLWindow/opengl_fontstashcallbacks.cpp.obj
+.PHONY : OpenGLWindow/opengl_fontstashcallbacks.cpp.obj
+
+OpenGLWindow/opengl_fontstashcallbacks.i: OpenGLWindow/opengl_fontstashcallbacks.cpp.i
+.PHONY : OpenGLWindow/opengl_fontstashcallbacks.i
+
+# target to preprocess a source file
+OpenGLWindow/opengl_fontstashcallbacks.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/OpenGLWindow/opengl_fontstashcallbacks.cpp.i
+.PHONY : OpenGLWindow/opengl_fontstashcallbacks.cpp.i
+
+OpenGLWindow/opengl_fontstashcallbacks.s: OpenGLWindow/opengl_fontstashcallbacks.cpp.s
+.PHONY : OpenGLWindow/opengl_fontstashcallbacks.s
+
+# target to generate assembly for a file
+OpenGLWindow/opengl_fontstashcallbacks.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/OpenGLWindow/opengl_fontstashcallbacks.cpp.s
+.PHONY : OpenGLWindow/opengl_fontstashcallbacks.cpp.s
+
+ThirdPartyLibs/glad/gl.obj: ThirdPartyLibs/glad/gl.c.obj
+.PHONY : ThirdPartyLibs/glad/gl.obj
+
+# target to build an object file
+ThirdPartyLibs/glad/gl.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/ThirdPartyLibs/glad/gl.c.obj
+.PHONY : ThirdPartyLibs/glad/gl.c.obj
+
+ThirdPartyLibs/glad/gl.i: ThirdPartyLibs/glad/gl.c.i
+.PHONY : ThirdPartyLibs/glad/gl.i
+
+# target to preprocess a source file
+ThirdPartyLibs/glad/gl.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/ThirdPartyLibs/glad/gl.c.i
+.PHONY : ThirdPartyLibs/glad/gl.c.i
+
+ThirdPartyLibs/glad/gl.s: ThirdPartyLibs/glad/gl.c.s
+.PHONY : ThirdPartyLibs/glad/gl.s
+
+# target to generate assembly for a file
+ThirdPartyLibs/glad/gl.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/ThirdPartyLibs/glad/gl.c.s
+.PHONY : ThirdPartyLibs/glad/gl.c.s
+
+Utils/b3Clock.obj: Utils/b3Clock.cpp.obj
+.PHONY : Utils/b3Clock.obj
+
+# target to build an object file
+Utils/b3Clock.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/Utils/b3Clock.cpp.obj
+.PHONY : Utils/b3Clock.cpp.obj
+
+Utils/b3Clock.i: Utils/b3Clock.cpp.i
+.PHONY : Utils/b3Clock.i
+
+# target to preprocess a source file
+Utils/b3Clock.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/Utils/b3Clock.cpp.i
+.PHONY : Utils/b3Clock.cpp.i
+
+Utils/b3Clock.s: Utils/b3Clock.cpp.s
+.PHONY : Utils/b3Clock.s
+
+# target to generate assembly for a file
+Utils/b3Clock.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/Utils/b3Clock.cpp.s
+.PHONY : Utils/b3Clock.cpp.s
+
+Utils/b3ResourcePath.obj: Utils/b3ResourcePath.cpp.obj
+.PHONY : Utils/b3ResourcePath.obj
+
+# target to build an object file
+Utils/b3ResourcePath.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/Utils/b3ResourcePath.cpp.obj
+.PHONY : Utils/b3ResourcePath.cpp.obj
+
+Utils/b3ResourcePath.i: Utils/b3ResourcePath.cpp.i
+.PHONY : Utils/b3ResourcePath.i
+
+# target to preprocess a source file
+Utils/b3ResourcePath.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/Utils/b3ResourcePath.cpp.i
+.PHONY : Utils/b3ResourcePath.cpp.i
+
+Utils/b3ResourcePath.s: Utils/b3ResourcePath.cpp.s
+.PHONY : Utils/b3ResourcePath.s
+
+# target to generate assembly for a file
+Utils/b3ResourcePath.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/Utils/b3ResourcePath.cpp.s
+.PHONY : Utils/b3ResourcePath.cpp.s
+
+linker_fixes.obj: linker_fixes.cpp.obj
+.PHONY : linker_fixes.obj
+
+# target to build an object file
+linker_fixes.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/linker_fixes.cpp.obj
+.PHONY : linker_fixes.cpp.obj
+
+linker_fixes.i: linker_fixes.cpp.i
+.PHONY : linker_fixes.i
+
+# target to preprocess a source file
+linker_fixes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/linker_fixes.cpp.i
+.PHONY : linker_fixes.cpp.i
+
+linker_fixes.s: linker_fixes.cpp.s
+.PHONY : linker_fixes.s
+
+# target to generate assembly for a file
+linker_fixes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/linker_fixes.cpp.s
+.PHONY : linker_fixes.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -548,51 +668,66 @@ help:
 	@echo ... Bridge.obj
 	@echo ... Bridge.i
 	@echo ... Bridge.s
-	@echo ... G_/bullet3/examples/OpenGLWindow/GLInstancingRenderer.obj
-	@echo ... G_/bullet3/examples/OpenGLWindow/GLInstancingRenderer.i
-	@echo ... G_/bullet3/examples/OpenGLWindow/GLInstancingRenderer.s
-	@echo ... G_/bullet3/examples/OpenGLWindow/GLPrimitiveRenderer.obj
-	@echo ... G_/bullet3/examples/OpenGLWindow/GLPrimitiveRenderer.i
-	@echo ... G_/bullet3/examples/OpenGLWindow/GLPrimitiveRenderer.s
-	@echo ... G_/bullet3/examples/OpenGLWindow/GLRenderToTexture.obj
-	@echo ... G_/bullet3/examples/OpenGLWindow/GLRenderToTexture.i
-	@echo ... G_/bullet3/examples/OpenGLWindow/GLRenderToTexture.s
-	@echo ... G_/bullet3/examples/OpenGLWindow/LoadShader.obj
-	@echo ... G_/bullet3/examples/OpenGLWindow/LoadShader.i
-	@echo ... G_/bullet3/examples/OpenGLWindow/LoadShader.s
-	@echo ... G_/bullet3/examples/OpenGLWindow/OpenSans.obj
-	@echo ... G_/bullet3/examples/OpenGLWindow/OpenSans.i
-	@echo ... G_/bullet3/examples/OpenGLWindow/OpenSans.s
-	@echo ... G_/bullet3/examples/OpenGLWindow/SimpleCamera.obj
-	@echo ... G_/bullet3/examples/OpenGLWindow/SimpleCamera.i
-	@echo ... G_/bullet3/examples/OpenGLWindow/SimpleCamera.s
-	@echo ... G_/bullet3/examples/OpenGLWindow/SimpleOpenGL3App.obj
-	@echo ... G_/bullet3/examples/OpenGLWindow/SimpleOpenGL3App.i
-	@echo ... G_/bullet3/examples/OpenGLWindow/SimpleOpenGL3App.s
-	@echo ... G_/bullet3/examples/OpenGLWindow/TwFonts.obj
-	@echo ... G_/bullet3/examples/OpenGLWindow/TwFonts.i
-	@echo ... G_/bullet3/examples/OpenGLWindow/TwFonts.s
-	@echo ... G_/bullet3/examples/OpenGLWindow/Win32OpenGLWindow.obj
-	@echo ... G_/bullet3/examples/OpenGLWindow/Win32OpenGLWindow.i
-	@echo ... G_/bullet3/examples/OpenGLWindow/Win32OpenGLWindow.s
-	@echo ... G_/bullet3/examples/OpenGLWindow/Win32Window.obj
-	@echo ... G_/bullet3/examples/OpenGLWindow/Win32Window.i
-	@echo ... G_/bullet3/examples/OpenGLWindow/Win32Window.s
-	@echo ... G_/bullet3/examples/OpenGLWindow/fontstash.obj
-	@echo ... G_/bullet3/examples/OpenGLWindow/fontstash.i
-	@echo ... G_/bullet3/examples/OpenGLWindow/fontstash.s
-	@echo ... G_/bullet3/examples/OpenGLWindow/opengl_fontstashcallbacks.obj
-	@echo ... G_/bullet3/examples/OpenGLWindow/opengl_fontstashcallbacks.i
-	@echo ... G_/bullet3/examples/OpenGLWindow/opengl_fontstashcallbacks.s
-	@echo ... G_/bullet3/examples/ThirdPartyLibs/glad/gl.obj
-	@echo ... G_/bullet3/examples/ThirdPartyLibs/glad/gl.i
-	@echo ... G_/bullet3/examples/ThirdPartyLibs/glad/gl.s
-	@echo ... G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image.obj
-	@echo ... G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image.i
-	@echo ... G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image.s
-	@echo ... G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image_write.obj
-	@echo ... G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image_write.i
-	@echo ... G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image_write.s
+	@echo ... ExampleBrowser/CollisionShape2TriangleMesh.obj
+	@echo ... ExampleBrowser/CollisionShape2TriangleMesh.i
+	@echo ... ExampleBrowser/CollisionShape2TriangleMesh.s
+	@echo ... ExampleBrowser/OpenGLGuiHelper.obj
+	@echo ... ExampleBrowser/OpenGLGuiHelper.i
+	@echo ... ExampleBrowser/OpenGLGuiHelper.s
+	@echo ... Importers/ImportObjDemo/Wavefront2GLInstanceGraphicsShape.obj
+	@echo ... Importers/ImportObjDemo/Wavefront2GLInstanceGraphicsShape.i
+	@echo ... Importers/ImportObjDemo/Wavefront2GLInstanceGraphicsShape.s
+	@echo ... Importers/ImportSTLDemo/ImportSTLSetup.obj
+	@echo ... Importers/ImportSTLDemo/ImportSTLSetup.i
+	@echo ... Importers/ImportSTLDemo/ImportSTLSetup.s
+	@echo ... OpenGLWindow/GLInstancingRenderer.obj
+	@echo ... OpenGLWindow/GLInstancingRenderer.i
+	@echo ... OpenGLWindow/GLInstancingRenderer.s
+	@echo ... OpenGLWindow/GLPrimitiveRenderer.obj
+	@echo ... OpenGLWindow/GLPrimitiveRenderer.i
+	@echo ... OpenGLWindow/GLPrimitiveRenderer.s
+	@echo ... OpenGLWindow/GLRenderToTexture.obj
+	@echo ... OpenGLWindow/GLRenderToTexture.i
+	@echo ... OpenGLWindow/GLRenderToTexture.s
+	@echo ... OpenGLWindow/LoadShader.obj
+	@echo ... OpenGLWindow/LoadShader.i
+	@echo ... OpenGLWindow/LoadShader.s
+	@echo ... OpenGLWindow/OpenSans.obj
+	@echo ... OpenGLWindow/OpenSans.i
+	@echo ... OpenGLWindow/OpenSans.s
+	@echo ... OpenGLWindow/SimpleCamera.obj
+	@echo ... OpenGLWindow/SimpleCamera.i
+	@echo ... OpenGLWindow/SimpleCamera.s
+	@echo ... OpenGLWindow/SimpleOpenGL3App.obj
+	@echo ... OpenGLWindow/SimpleOpenGL3App.i
+	@echo ... OpenGLWindow/SimpleOpenGL3App.s
+	@echo ... OpenGLWindow/TwFonts.obj
+	@echo ... OpenGLWindow/TwFonts.i
+	@echo ... OpenGLWindow/TwFonts.s
+	@echo ... OpenGLWindow/Win32OpenGLWindow.obj
+	@echo ... OpenGLWindow/Win32OpenGLWindow.i
+	@echo ... OpenGLWindow/Win32OpenGLWindow.s
+	@echo ... OpenGLWindow/Win32Window.obj
+	@echo ... OpenGLWindow/Win32Window.i
+	@echo ... OpenGLWindow/Win32Window.s
+	@echo ... OpenGLWindow/fontstash.obj
+	@echo ... OpenGLWindow/fontstash.i
+	@echo ... OpenGLWindow/fontstash.s
+	@echo ... OpenGLWindow/opengl_fontstashcallbacks.obj
+	@echo ... OpenGLWindow/opengl_fontstashcallbacks.i
+	@echo ... OpenGLWindow/opengl_fontstashcallbacks.s
+	@echo ... ThirdPartyLibs/glad/gl.obj
+	@echo ... ThirdPartyLibs/glad/gl.i
+	@echo ... ThirdPartyLibs/glad/gl.s
+	@echo ... Utils/b3Clock.obj
+	@echo ... Utils/b3Clock.i
+	@echo ... Utils/b3Clock.s
+	@echo ... Utils/b3ResourcePath.obj
+	@echo ... Utils/b3ResourcePath.i
+	@echo ... Utils/b3ResourcePath.s
+	@echo ... linker_fixes.obj
+	@echo ... linker_fixes.i
+	@echo ... linker_fixes.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

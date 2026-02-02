@@ -18,8 +18,15 @@ subject to the following restrictions:
 #include "LinearMath/btVector3.h"
 #include "LinearMath/btAlignedObjectArray.h"
 #include "CommonRigidBodyBase.h"
+//#include "Importers/ImportMeshUtility/b3ImportMeshUtility.h"
+#include "Utils/b3BulletDefaultFileIO.h"
+#include "OpenGLWindow/GLInstanceGraphicsShape.h"
+#include  "Importers/ImportSTLDemo/ImportSTLSetup.h"
+#include "Utils/b3ResourcePath.h"
+#include "OpenGLWindow/GLInstanceGraphicsShape.h"
+#include  "Importers/ImportSTLDemo/LoadMeshFromSTL.h"
 
-const int TOTAL_PLANKS = 10;
+const int TOTAL_PLANKS = 4;
 struct BridgeExample : public CommonRigidBodyBase
 {
 	BridgeExample(struct GUIHelperInterface* helper)
@@ -41,93 +48,99 @@ struct BridgeExample : public CommonRigidBodyBase
 
 void BridgeExample::initPhysics()
 {
-	m_guiHelper->setUpAxis(1);
+    m_guiHelper->setUpAxis(1);
+    createEmptyDynamicsWorld();
 
-	createEmptyDynamicsWorld();
+    // 1. Load the STL instead of OBJ
+    b3BulletDefaultFileIO fileIO;
+    const char* stlPath = "G:\\bullet3\\examples\\pybullet\\gym\\pybullet_data\\bicycle\\files\\bike_rack.stl"; // Or your full path
+    char relativeFileName[1024];
+    
+    int myMeshId = -1;
+    if (b3ResourcePath::findResourcePath(stlPath, relativeFileName, 1024, 0))
+    {
+        GLInstanceGraphicsShape* gfxShape = LoadMeshFromSTL(relativeFileName, &fileIO);
+        if (gfxShape == nullptr) {
+            printf("ERROR: LoadMeshFromSTL returned NULL! (File might be binary STL or corrupted)\n");
+        } 
+        else
+        {
+            printf("SUCCESS: Loaded %d vertices\n", gfxShape->m_numvertices);
+            if (gfxShape && gfxShape->m_numvertices > 0)
+            {
+                myMeshId = m_guiHelper->getRenderInterface()->registerShape(
+                    &gfxShape->m_vertices->at(0).xyzw[0],
+                    gfxShape->m_numvertices,
+                    &gfxShape->m_indices->at(0),
+                    gfxShape->m_numIndices);
+                delete gfxShape; // Clean up memory after registering
+            }
+            printf("Found STL at: %s\n", relativeFileName);
+            // ... inside the STL loading block ...
+            printf("DEBUG: STL myMeshId = %d\n", myMeshId); // Check if this is 0 or higher
+        }
+    }
+    else
+    {
+         printf("ERROR: Could not find STL file: %s\n", stlPath);
+    }
 
-	m_guiHelper->createPhysicsDebugDrawer(m_dynamicsWorld);
+    // 2. Standard Ground Creation
+    btBoxShape* groundShape = createBoxShape(btVector3(50, 50, 50));
+    createRigidBody(0, btTransform(btQuaternion(0,0,0,1), btVector3(0,-50,0)), groundShape);
 
-	if (m_dynamicsWorld->getDebugDrawer())
-		m_dynamicsWorld->getDebugDrawer()->setDebugMode(btIDebugDraw::DBG_DrawWireframe + btIDebugDraw::DBG_DrawContactPoints);
+    // 3. Create Planks and attach STL Graphics
+    btBoxShape* colShape = createBoxShape(btVector3(0.4, 0.2, 1.0));
+    btAlignedObjectArray<btRigidBody*> boxes;
+    btVector3 scaling(10, 10, 10); // Match your first script's scale
 
-	///create a few basic rigid bodies
-	btBoxShape* groundShape = createBoxShape(btVector3(btScalar(50.), btScalar(50.), btScalar(50.)));
-	m_collisionShapes.push_back(groundShape);
+    for (int i = 0; i < TOTAL_PLANKS; ++i) {
+        btTransform trans;
+        trans.setIdentity();
+        trans.setOrigin(btVector3(i * 0.8 - 1.2, 5, 0));
 
-	btTransform groundTransform;
-	groundTransform.setIdentity();
-	groundTransform.setOrigin(btVector3(0, -50, 0));
-	{
-		btScalar mass(0.);
-		createRigidBody(mass, groundTransform, groundShape, btVector4(0, 0, 1, 1));
-	}
+        btRigidBody* body = createRigidBody((i == 0 || i == TOTAL_PLANKS-1) ? 0 : 1.0f, trans, colShape);
+        boxes.push_back(body);
 
-	//create two fixed boxes to hold the planks
+        if (myMeshId >= 0) {
+            m_guiHelper->getRenderInterface()->registerGraphicsInstance(
+                myMeshId, trans.getOrigin(), trans.getRotation(), 
+                btVector4(0, 0, 1, 1), scaling);
+        }
 
-	{
-		//create a few dynamic rigidbodies
-		// Re-using the same collision is better for memory usage and performance
-		btScalar plankWidth = 0.4;
-		btScalar plankHeight = 0.2;
-		btScalar plankBreadth = 1;
-		btScalar plankOffset = plankWidth;  //distance between two planks
-		btScalar bridgeWidth = plankWidth * TOTAL_PLANKS + plankOffset * (TOTAL_PLANKS - 1);
-		btScalar bridgeHeight = 5;
-		btScalar halfBridgeWidth = bridgeWidth * 0.5f;
+        // ... inside the loop ...
+        else {
+            printf("DEBUG: Skipping graphics - myMeshId is invalid!\n");
+        }
+    }
 
-		btBoxShape* colShape = createBoxShape(btVector3(plankWidth, plankHeight, plankBreadth));
-
-		m_collisionShapes.push_back(colShape);
-
-		/// Create Dynamic Objects
-		btTransform startTransform;
-		startTransform.setIdentity();
-
-		btScalar mass(1.f);
-
-		//rigidbody is dynamic if and only if mass is non zero, otherwise static
-		bool isDynamic = (mass != 0.f);
-
-		btVector3 localInertia(0, 0, 0);
-		if (isDynamic)
-			colShape->calculateLocalInertia(mass, localInertia);
-
-		//create a set of boxes to represent bridge
-		btAlignedObjectArray<btRigidBody*> boxes;
-		int lastBoxIndex = TOTAL_PLANKS - 1;
-		for (int i = 0; i < TOTAL_PLANKS; ++i)
-		{
-			float t = float(i) / lastBoxIndex;
-			t = -(t * 2 - 1.0f) * halfBridgeWidth;
-			startTransform.setOrigin(btVector3(
-				btScalar(t),
-				bridgeHeight,
-				btScalar(0)));
-			boxes.push_back(createRigidBody((i == 0 || i == lastBoxIndex) ? 0 : mass, startTransform, colShape));
-		}
-
-		//add N-1 spring constraints
-		for (int i = 0; i < TOTAL_PLANKS - 1; ++i)
-		{
-			btRigidBody* b1 = boxes[i];
-			btRigidBody* b2 = boxes[i + 1];
-
-			btPoint2PointConstraint* leftSpring = new btPoint2PointConstraint(*b1, *b2, btVector3(-0.5, 0, -0.5), btVector3(0.5, 0, -0.5));
-			m_dynamicsWorld->addConstraint(leftSpring);
-
-			btPoint2PointConstraint* rightSpring = new btPoint2PointConstraint(*b1, *b2, btVector3(-0.5, 0, 0.5), btVector3(0.5, 0, 0.5));
-			m_dynamicsWorld->addConstraint(rightSpring);
-		}
-	}
-
-	m_guiHelper->autogenerateGraphicsObjects(m_dynamicsWorld);
+    printf("DEBUG: Adding Constraints\n");
+    for (int i = 0; i < TOTAL_PLANKS - 1; ++i) {
+        btPoint2PointConstraint* leftSpring = new btPoint2PointConstraint(*boxes[i], *boxes[i+1], btVector3(-0.5, 0, -0.5), btVector3(0.5, 0, -0.5));
+        m_dynamicsWorld->addConstraint(leftSpring);
+        btPoint2PointConstraint* rightSpring = new btPoint2PointConstraint(*boxes[i], *boxes[i+1], btVector3(-0.5, 0, 0.5), btVector3(0.5, 0, 0.5));
+        m_dynamicsWorld->addConstraint(rightSpring);
+    }
+    
+    //     if (gfxShape) {
+    //     delete gfxShape;
+    // }
+    m_guiHelper->syncPhysicsToGraphics(m_dynamicsWorld);
+    printf("DEBUG: initPhysics Finished Successfully!\n");
+    
 }
 
 void BridgeExample::renderScene()
 {
-	CommonRigidBodyBase::renderScene();
-}
+    // Draws the ground and boxes
+    CommonRigidBodyBase::renderScene();
 
+    // Makes your OBJ mesh follow the physics boxes
+    if (m_guiHelper && m_guiHelper->getRenderInterface())
+    {
+        m_guiHelper->syncPhysicsToGraphics(m_dynamicsWorld);
+    }
+}
 CommonExampleInterface* StandaloneExampleCreateFunc(CommonExampleOptions& options)
 {
     return new BridgeExample(options.m_guiHelper);

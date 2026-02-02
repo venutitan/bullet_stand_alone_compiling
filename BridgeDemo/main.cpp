@@ -67,8 +67,9 @@ public:
 };
 int main(int argc, char* argv[])
 {
+	printf("--- Stage 1: Initializing Graphics ---\n");
 	SimpleOpenGL3App* app = new SimpleOpenGL3App("Bullet Standalone Example", 1024, 768, true);
-
+	printf("--- Stage 2: Initializing Physics ---\n");
 	prevMouseButtonCallback = app->m_window->getMouseButtonCallback();
 	prevMouseMoveCallback = app->m_window->getMouseMoveCallback();
 
@@ -83,15 +84,15 @@ int main(int argc, char* argv[])
 
 	example = StandaloneExampleCreateFunc(options);
 	example->processCommandLineArgs(argc, argv);
-
+	printf("--- Stage 3: Building Scene ---\n");
 	example->initPhysics();
 	example->resetCamera();
-
+	printf("--- Stage 4: Starting Main Loop ---\n");
 	b3Clock clock;
-
+	app->m_instancingRenderer->init(); //moved form do to avoid memory leak 
 	do
 	{
-		app->m_instancingRenderer->init();
+		
 		app->m_instancingRenderer->updateCamera(app->getUpAxis());
 
 		btScalar dtSec = btScalar(clock.getTimeInSeconds());

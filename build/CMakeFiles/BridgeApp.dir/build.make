@@ -52,10 +52,10 @@ RM = C:\msys64\ucrt64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = G:\earring_demo\BridgeDemo
+CMAKE_SOURCE_DIR = G:\bullet_demo\BridgeDemo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = G:\earring_demo\build
+CMAKE_BINARY_DIR = G:\bullet_demo\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/BridgeApp.dir/depend.make
@@ -73,307 +73,389 @@ CMakeFiles/BridgeApp.dir/codegen:
 
 CMakeFiles/BridgeApp.dir/main.cpp.obj: CMakeFiles/BridgeApp.dir/flags.make
 CMakeFiles/BridgeApp.dir/main.cpp.obj: CMakeFiles/BridgeApp.dir/includes_CXX.rsp
-CMakeFiles/BridgeApp.dir/main.cpp.obj: G:/earring_demo/BridgeDemo/main.cpp
+CMakeFiles/BridgeApp.dir/main.cpp.obj: G:/bullet_demo/BridgeDemo/main.cpp
 CMakeFiles/BridgeApp.dir/main.cpp.obj: CMakeFiles/BridgeApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\earring_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BridgeApp.dir/main.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BridgeApp.dir/main.cpp.obj -MF CMakeFiles\BridgeApp.dir\main.cpp.obj.d -o CMakeFiles\BridgeApp.dir\main.cpp.obj -c G:\earring_demo\BridgeDemo\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\bullet_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BridgeApp.dir/main.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BridgeApp.dir/main.cpp.obj -MF CMakeFiles\BridgeApp.dir\main.cpp.obj.d -o CMakeFiles\BridgeApp.dir\main.cpp.obj -c G:\bullet_demo\BridgeDemo\main.cpp
 
 CMakeFiles/BridgeApp.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BridgeApp.dir/main.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\earring_demo\BridgeDemo\main.cpp > CMakeFiles\BridgeApp.dir\main.cpp.i
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\bullet_demo\BridgeDemo\main.cpp > CMakeFiles\BridgeApp.dir\main.cpp.i
 
 CMakeFiles/BridgeApp.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BridgeApp.dir/main.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\earring_demo\BridgeDemo\main.cpp -o CMakeFiles\BridgeApp.dir\main.cpp.s
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\bullet_demo\BridgeDemo\main.cpp -o CMakeFiles\BridgeApp.dir\main.cpp.s
 
 CMakeFiles/BridgeApp.dir/Bridge.cpp.obj: CMakeFiles/BridgeApp.dir/flags.make
 CMakeFiles/BridgeApp.dir/Bridge.cpp.obj: CMakeFiles/BridgeApp.dir/includes_CXX.rsp
-CMakeFiles/BridgeApp.dir/Bridge.cpp.obj: G:/earring_demo/BridgeDemo/Bridge.cpp
+CMakeFiles/BridgeApp.dir/Bridge.cpp.obj: G:/bullet_demo/BridgeDemo/Bridge.cpp
 CMakeFiles/BridgeApp.dir/Bridge.cpp.obj: CMakeFiles/BridgeApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\earring_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BridgeApp.dir/Bridge.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BridgeApp.dir/Bridge.cpp.obj -MF CMakeFiles\BridgeApp.dir\Bridge.cpp.obj.d -o CMakeFiles\BridgeApp.dir\Bridge.cpp.obj -c G:\earring_demo\BridgeDemo\Bridge.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\bullet_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BridgeApp.dir/Bridge.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BridgeApp.dir/Bridge.cpp.obj -MF CMakeFiles\BridgeApp.dir\Bridge.cpp.obj.d -o CMakeFiles\BridgeApp.dir\Bridge.cpp.obj -c G:\bullet_demo\BridgeDemo\Bridge.cpp
 
 CMakeFiles/BridgeApp.dir/Bridge.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BridgeApp.dir/Bridge.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\earring_demo\BridgeDemo\Bridge.cpp > CMakeFiles\BridgeApp.dir\Bridge.cpp.i
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\bullet_demo\BridgeDemo\Bridge.cpp > CMakeFiles\BridgeApp.dir\Bridge.cpp.i
 
 CMakeFiles/BridgeApp.dir/Bridge.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BridgeApp.dir/Bridge.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\earring_demo\BridgeDemo\Bridge.cpp -o CMakeFiles\BridgeApp.dir\Bridge.cpp.s
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\bullet_demo\BridgeDemo\Bridge.cpp -o CMakeFiles\BridgeApp.dir\Bridge.cpp.s
 
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/glad/gl.c.obj: CMakeFiles/BridgeApp.dir/flags.make
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/glad/gl.c.obj: CMakeFiles/BridgeApp.dir/includes_C.rsp
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/glad/gl.c.obj: G:/bullet3/examples/ThirdPartyLibs/glad/gl.c
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/glad/gl.c.obj: CMakeFiles/BridgeApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\earring_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/glad/gl.c.obj"
-	C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/glad/gl.c.obj -MF CMakeFiles\BridgeApp.dir\G_\bullet3\examples\ThirdPartyLibs\glad\gl.c.obj.d -o CMakeFiles\BridgeApp.dir\G_\bullet3\examples\ThirdPartyLibs\glad\gl.c.obj -c G:\bullet3\examples\ThirdPartyLibs\glad\gl.c
+CMakeFiles/BridgeApp.dir/linker_fixes.cpp.obj: CMakeFiles/BridgeApp.dir/flags.make
+CMakeFiles/BridgeApp.dir/linker_fixes.cpp.obj: CMakeFiles/BridgeApp.dir/includes_CXX.rsp
+CMakeFiles/BridgeApp.dir/linker_fixes.cpp.obj: G:/bullet_demo/BridgeDemo/linker_fixes.cpp
+CMakeFiles/BridgeApp.dir/linker_fixes.cpp.obj: CMakeFiles/BridgeApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\bullet_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/BridgeApp.dir/linker_fixes.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BridgeApp.dir/linker_fixes.cpp.obj -MF CMakeFiles\BridgeApp.dir\linker_fixes.cpp.obj.d -o CMakeFiles\BridgeApp.dir\linker_fixes.cpp.obj -c G:\bullet_demo\BridgeDemo\linker_fixes.cpp
 
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/glad/gl.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/glad/gl.c.i"
-	C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\bullet3\examples\ThirdPartyLibs\glad\gl.c > CMakeFiles\BridgeApp.dir\G_\bullet3\examples\ThirdPartyLibs\glad\gl.c.i
+CMakeFiles/BridgeApp.dir/linker_fixes.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BridgeApp.dir/linker_fixes.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\bullet_demo\BridgeDemo\linker_fixes.cpp > CMakeFiles\BridgeApp.dir\linker_fixes.cpp.i
 
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/glad/gl.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/glad/gl.c.s"
-	C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\bullet3\examples\ThirdPartyLibs\glad\gl.c -o CMakeFiles\BridgeApp.dir\G_\bullet3\examples\ThirdPartyLibs\glad\gl.c.s
+CMakeFiles/BridgeApp.dir/linker_fixes.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BridgeApp.dir/linker_fixes.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\bullet_demo\BridgeDemo\linker_fixes.cpp -o CMakeFiles\BridgeApp.dir\linker_fixes.cpp.s
 
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image.cpp.obj: CMakeFiles/BridgeApp.dir/flags.make
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image.cpp.obj: CMakeFiles/BridgeApp.dir/includes_CXX.rsp
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image.cpp.obj: G:/bullet3/examples/ThirdPartyLibs/stb_image/stb_image.cpp
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image.cpp.obj: CMakeFiles/BridgeApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\earring_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image.cpp.obj -MF CMakeFiles\BridgeApp.dir\G_\bullet3\examples\ThirdPartyLibs\stb_image\stb_image.cpp.obj.d -o CMakeFiles\BridgeApp.dir\G_\bullet3\examples\ThirdPartyLibs\stb_image\stb_image.cpp.obj -c G:\bullet3\examples\ThirdPartyLibs\stb_image\stb_image.cpp
+CMakeFiles/BridgeApp.dir/Importers/ImportSTLDemo/ImportSTLSetup.cpp.obj: CMakeFiles/BridgeApp.dir/flags.make
+CMakeFiles/BridgeApp.dir/Importers/ImportSTLDemo/ImportSTLSetup.cpp.obj: CMakeFiles/BridgeApp.dir/includes_CXX.rsp
+CMakeFiles/BridgeApp.dir/Importers/ImportSTLDemo/ImportSTLSetup.cpp.obj: G:/bullet_demo/BridgeDemo/Importers/ImportSTLDemo/ImportSTLSetup.cpp
+CMakeFiles/BridgeApp.dir/Importers/ImportSTLDemo/ImportSTLSetup.cpp.obj: CMakeFiles/BridgeApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\bullet_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/BridgeApp.dir/Importers/ImportSTLDemo/ImportSTLSetup.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BridgeApp.dir/Importers/ImportSTLDemo/ImportSTLSetup.cpp.obj -MF CMakeFiles\BridgeApp.dir\Importers\ImportSTLDemo\ImportSTLSetup.cpp.obj.d -o CMakeFiles\BridgeApp.dir\Importers\ImportSTLDemo\ImportSTLSetup.cpp.obj -c G:\bullet_demo\BridgeDemo\Importers\ImportSTLDemo\ImportSTLSetup.cpp
 
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\bullet3\examples\ThirdPartyLibs\stb_image\stb_image.cpp > CMakeFiles\BridgeApp.dir\G_\bullet3\examples\ThirdPartyLibs\stb_image\stb_image.cpp.i
+CMakeFiles/BridgeApp.dir/Importers/ImportSTLDemo/ImportSTLSetup.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BridgeApp.dir/Importers/ImportSTLDemo/ImportSTLSetup.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\bullet_demo\BridgeDemo\Importers\ImportSTLDemo\ImportSTLSetup.cpp > CMakeFiles\BridgeApp.dir\Importers\ImportSTLDemo\ImportSTLSetup.cpp.i
 
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\bullet3\examples\ThirdPartyLibs\stb_image\stb_image.cpp -o CMakeFiles\BridgeApp.dir\G_\bullet3\examples\ThirdPartyLibs\stb_image\stb_image.cpp.s
+CMakeFiles/BridgeApp.dir/Importers/ImportSTLDemo/ImportSTLSetup.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BridgeApp.dir/Importers/ImportSTLDemo/ImportSTLSetup.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\bullet_demo\BridgeDemo\Importers\ImportSTLDemo\ImportSTLSetup.cpp -o CMakeFiles\BridgeApp.dir\Importers\ImportSTLDemo\ImportSTLSetup.cpp.s
 
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image_write.cpp.obj: CMakeFiles/BridgeApp.dir/flags.make
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image_write.cpp.obj: CMakeFiles/BridgeApp.dir/includes_CXX.rsp
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image_write.cpp.obj: G:/bullet3/examples/ThirdPartyLibs/stb_image/stb_image_write.cpp
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image_write.cpp.obj: CMakeFiles/BridgeApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\earring_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image_write.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image_write.cpp.obj -MF CMakeFiles\BridgeApp.dir\G_\bullet3\examples\ThirdPartyLibs\stb_image\stb_image_write.cpp.obj.d -o CMakeFiles\BridgeApp.dir\G_\bullet3\examples\ThirdPartyLibs\stb_image\stb_image_write.cpp.obj -c G:\bullet3\examples\ThirdPartyLibs\stb_image\stb_image_write.cpp
+CMakeFiles/BridgeApp.dir/ThirdPartyLibs/glad/gl.c.obj: CMakeFiles/BridgeApp.dir/flags.make
+CMakeFiles/BridgeApp.dir/ThirdPartyLibs/glad/gl.c.obj: CMakeFiles/BridgeApp.dir/includes_C.rsp
+CMakeFiles/BridgeApp.dir/ThirdPartyLibs/glad/gl.c.obj: G:/bullet_demo/BridgeDemo/ThirdPartyLibs/glad/gl.c
+CMakeFiles/BridgeApp.dir/ThirdPartyLibs/glad/gl.c.obj: CMakeFiles/BridgeApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\bullet_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/BridgeApp.dir/ThirdPartyLibs/glad/gl.c.obj"
+	C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/BridgeApp.dir/ThirdPartyLibs/glad/gl.c.obj -MF CMakeFiles\BridgeApp.dir\ThirdPartyLibs\glad\gl.c.obj.d -o CMakeFiles\BridgeApp.dir\ThirdPartyLibs\glad\gl.c.obj -c G:\bullet_demo\BridgeDemo\ThirdPartyLibs\glad\gl.c
 
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image_write.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image_write.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\bullet3\examples\ThirdPartyLibs\stb_image\stb_image_write.cpp > CMakeFiles\BridgeApp.dir\G_\bullet3\examples\ThirdPartyLibs\stb_image\stb_image_write.cpp.i
+CMakeFiles/BridgeApp.dir/ThirdPartyLibs/glad/gl.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/BridgeApp.dir/ThirdPartyLibs/glad/gl.c.i"
+	C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\bullet_demo\BridgeDemo\ThirdPartyLibs\glad\gl.c > CMakeFiles\BridgeApp.dir\ThirdPartyLibs\glad\gl.c.i
 
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image_write.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image_write.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\bullet3\examples\ThirdPartyLibs\stb_image\stb_image_write.cpp -o CMakeFiles\BridgeApp.dir\G_\bullet3\examples\ThirdPartyLibs\stb_image\stb_image_write.cpp.s
+CMakeFiles/BridgeApp.dir/ThirdPartyLibs/glad/gl.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/BridgeApp.dir/ThirdPartyLibs/glad/gl.c.s"
+	C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\bullet_demo\BridgeDemo\ThirdPartyLibs\glad\gl.c -o CMakeFiles\BridgeApp.dir\ThirdPartyLibs\glad\gl.c.s
 
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/Win32Window.cpp.obj: CMakeFiles/BridgeApp.dir/flags.make
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/Win32Window.cpp.obj: CMakeFiles/BridgeApp.dir/includes_CXX.rsp
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/Win32Window.cpp.obj: G:/bullet3/examples/OpenGLWindow/Win32Window.cpp
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/Win32Window.cpp.obj: CMakeFiles/BridgeApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\earring_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/Win32Window.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/Win32Window.cpp.obj -MF CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\Win32Window.cpp.obj.d -o CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\Win32Window.cpp.obj -c G:\bullet3\examples\OpenGLWindow\Win32Window.cpp
+CMakeFiles/BridgeApp.dir/Importers/ImportObjDemo/Wavefront2GLInstanceGraphicsShape.cpp.obj: CMakeFiles/BridgeApp.dir/flags.make
+CMakeFiles/BridgeApp.dir/Importers/ImportObjDemo/Wavefront2GLInstanceGraphicsShape.cpp.obj: CMakeFiles/BridgeApp.dir/includes_CXX.rsp
+CMakeFiles/BridgeApp.dir/Importers/ImportObjDemo/Wavefront2GLInstanceGraphicsShape.cpp.obj: G:/bullet_demo/BridgeDemo/Importers/ImportObjDemo/Wavefront2GLInstanceGraphicsShape.cpp
+CMakeFiles/BridgeApp.dir/Importers/ImportObjDemo/Wavefront2GLInstanceGraphicsShape.cpp.obj: CMakeFiles/BridgeApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\bullet_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/BridgeApp.dir/Importers/ImportObjDemo/Wavefront2GLInstanceGraphicsShape.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BridgeApp.dir/Importers/ImportObjDemo/Wavefront2GLInstanceGraphicsShape.cpp.obj -MF CMakeFiles\BridgeApp.dir\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp.obj.d -o CMakeFiles\BridgeApp.dir\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp.obj -c G:\bullet_demo\BridgeDemo\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp
 
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/Win32Window.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/Win32Window.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\bullet3\examples\OpenGLWindow\Win32Window.cpp > CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\Win32Window.cpp.i
+CMakeFiles/BridgeApp.dir/Importers/ImportObjDemo/Wavefront2GLInstanceGraphicsShape.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BridgeApp.dir/Importers/ImportObjDemo/Wavefront2GLInstanceGraphicsShape.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\bullet_demo\BridgeDemo\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp > CMakeFiles\BridgeApp.dir\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp.i
 
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/Win32Window.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/Win32Window.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\bullet3\examples\OpenGLWindow\Win32Window.cpp -o CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\Win32Window.cpp.s
+CMakeFiles/BridgeApp.dir/Importers/ImportObjDemo/Wavefront2GLInstanceGraphicsShape.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BridgeApp.dir/Importers/ImportObjDemo/Wavefront2GLInstanceGraphicsShape.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\bullet_demo\BridgeDemo\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp -o CMakeFiles\BridgeApp.dir\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp.s
 
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/Win32OpenGLWindow.cpp.obj: CMakeFiles/BridgeApp.dir/flags.make
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/Win32OpenGLWindow.cpp.obj: CMakeFiles/BridgeApp.dir/includes_CXX.rsp
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/Win32OpenGLWindow.cpp.obj: G:/bullet3/examples/OpenGLWindow/Win32OpenGLWindow.cpp
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/Win32OpenGLWindow.cpp.obj: CMakeFiles/BridgeApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\earring_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/Win32OpenGLWindow.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/Win32OpenGLWindow.cpp.obj -MF CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\Win32OpenGLWindow.cpp.obj.d -o CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\Win32OpenGLWindow.cpp.obj -c G:\bullet3\examples\OpenGLWindow\Win32OpenGLWindow.cpp
+CMakeFiles/BridgeApp.dir/Utils/b3ResourcePath.cpp.obj: CMakeFiles/BridgeApp.dir/flags.make
+CMakeFiles/BridgeApp.dir/Utils/b3ResourcePath.cpp.obj: CMakeFiles/BridgeApp.dir/includes_CXX.rsp
+CMakeFiles/BridgeApp.dir/Utils/b3ResourcePath.cpp.obj: G:/bullet_demo/BridgeDemo/Utils/b3ResourcePath.cpp
+CMakeFiles/BridgeApp.dir/Utils/b3ResourcePath.cpp.obj: CMakeFiles/BridgeApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\bullet_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/BridgeApp.dir/Utils/b3ResourcePath.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BridgeApp.dir/Utils/b3ResourcePath.cpp.obj -MF CMakeFiles\BridgeApp.dir\Utils\b3ResourcePath.cpp.obj.d -o CMakeFiles\BridgeApp.dir\Utils\b3ResourcePath.cpp.obj -c G:\bullet_demo\BridgeDemo\Utils\b3ResourcePath.cpp
 
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/Win32OpenGLWindow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/Win32OpenGLWindow.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\bullet3\examples\OpenGLWindow\Win32OpenGLWindow.cpp > CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\Win32OpenGLWindow.cpp.i
+CMakeFiles/BridgeApp.dir/Utils/b3ResourcePath.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BridgeApp.dir/Utils/b3ResourcePath.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\bullet_demo\BridgeDemo\Utils\b3ResourcePath.cpp > CMakeFiles\BridgeApp.dir\Utils\b3ResourcePath.cpp.i
 
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/Win32OpenGLWindow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/Win32OpenGLWindow.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\bullet3\examples\OpenGLWindow\Win32OpenGLWindow.cpp -o CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\Win32OpenGLWindow.cpp.s
+CMakeFiles/BridgeApp.dir/Utils/b3ResourcePath.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BridgeApp.dir/Utils/b3ResourcePath.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\bullet_demo\BridgeDemo\Utils\b3ResourcePath.cpp -o CMakeFiles\BridgeApp.dir\Utils\b3ResourcePath.cpp.s
 
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/SimpleOpenGL3App.cpp.obj: CMakeFiles/BridgeApp.dir/flags.make
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/SimpleOpenGL3App.cpp.obj: CMakeFiles/BridgeApp.dir/includes_CXX.rsp
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/SimpleOpenGL3App.cpp.obj: G:/bullet3/examples/OpenGLWindow/SimpleOpenGL3App.cpp
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/SimpleOpenGL3App.cpp.obj: CMakeFiles/BridgeApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\earring_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/SimpleOpenGL3App.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/SimpleOpenGL3App.cpp.obj -MF CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\SimpleOpenGL3App.cpp.obj.d -o CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\SimpleOpenGL3App.cpp.obj -c G:\bullet3\examples\OpenGLWindow\SimpleOpenGL3App.cpp
+CMakeFiles/BridgeApp.dir/Utils/b3Clock.cpp.obj: CMakeFiles/BridgeApp.dir/flags.make
+CMakeFiles/BridgeApp.dir/Utils/b3Clock.cpp.obj: CMakeFiles/BridgeApp.dir/includes_CXX.rsp
+CMakeFiles/BridgeApp.dir/Utils/b3Clock.cpp.obj: G:/bullet_demo/BridgeDemo/Utils/b3Clock.cpp
+CMakeFiles/BridgeApp.dir/Utils/b3Clock.cpp.obj: CMakeFiles/BridgeApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\bullet_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/BridgeApp.dir/Utils/b3Clock.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BridgeApp.dir/Utils/b3Clock.cpp.obj -MF CMakeFiles\BridgeApp.dir\Utils\b3Clock.cpp.obj.d -o CMakeFiles\BridgeApp.dir\Utils\b3Clock.cpp.obj -c G:\bullet_demo\BridgeDemo\Utils\b3Clock.cpp
 
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/SimpleOpenGL3App.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/SimpleOpenGL3App.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\bullet3\examples\OpenGLWindow\SimpleOpenGL3App.cpp > CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\SimpleOpenGL3App.cpp.i
+CMakeFiles/BridgeApp.dir/Utils/b3Clock.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BridgeApp.dir/Utils/b3Clock.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\bullet_demo\BridgeDemo\Utils\b3Clock.cpp > CMakeFiles\BridgeApp.dir\Utils\b3Clock.cpp.i
 
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/SimpleOpenGL3App.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/SimpleOpenGL3App.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\bullet3\examples\OpenGLWindow\SimpleOpenGL3App.cpp -o CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\SimpleOpenGL3App.cpp.s
+CMakeFiles/BridgeApp.dir/Utils/b3Clock.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BridgeApp.dir/Utils/b3Clock.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\bullet_demo\BridgeDemo\Utils\b3Clock.cpp -o CMakeFiles\BridgeApp.dir\Utils\b3Clock.cpp.s
 
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/SimpleCamera.cpp.obj: CMakeFiles/BridgeApp.dir/flags.make
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/SimpleCamera.cpp.obj: CMakeFiles/BridgeApp.dir/includes_CXX.rsp
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/SimpleCamera.cpp.obj: G:/bullet3/examples/OpenGLWindow/SimpleCamera.cpp
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/SimpleCamera.cpp.obj: CMakeFiles/BridgeApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\earring_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/SimpleCamera.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/SimpleCamera.cpp.obj -MF CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\SimpleCamera.cpp.obj.d -o CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\SimpleCamera.cpp.obj -c G:\bullet3\examples\OpenGLWindow\SimpleCamera.cpp
+CMakeFiles/BridgeApp.dir/OpenGLWindow/Win32Window.cpp.obj: CMakeFiles/BridgeApp.dir/flags.make
+CMakeFiles/BridgeApp.dir/OpenGLWindow/Win32Window.cpp.obj: CMakeFiles/BridgeApp.dir/includes_CXX.rsp
+CMakeFiles/BridgeApp.dir/OpenGLWindow/Win32Window.cpp.obj: G:/bullet_demo/BridgeDemo/OpenGLWindow/Win32Window.cpp
+CMakeFiles/BridgeApp.dir/OpenGLWindow/Win32Window.cpp.obj: CMakeFiles/BridgeApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\bullet_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/BridgeApp.dir/OpenGLWindow/Win32Window.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BridgeApp.dir/OpenGLWindow/Win32Window.cpp.obj -MF CMakeFiles\BridgeApp.dir\OpenGLWindow\Win32Window.cpp.obj.d -o CMakeFiles\BridgeApp.dir\OpenGLWindow\Win32Window.cpp.obj -c G:\bullet_demo\BridgeDemo\OpenGLWindow\Win32Window.cpp
 
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/SimpleCamera.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/SimpleCamera.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\bullet3\examples\OpenGLWindow\SimpleCamera.cpp > CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\SimpleCamera.cpp.i
+CMakeFiles/BridgeApp.dir/OpenGLWindow/Win32Window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BridgeApp.dir/OpenGLWindow/Win32Window.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\bullet_demo\BridgeDemo\OpenGLWindow\Win32Window.cpp > CMakeFiles\BridgeApp.dir\OpenGLWindow\Win32Window.cpp.i
 
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/SimpleCamera.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/SimpleCamera.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\bullet3\examples\OpenGLWindow\SimpleCamera.cpp -o CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\SimpleCamera.cpp.s
+CMakeFiles/BridgeApp.dir/OpenGLWindow/Win32Window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BridgeApp.dir/OpenGLWindow/Win32Window.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\bullet_demo\BridgeDemo\OpenGLWindow\Win32Window.cpp -o CMakeFiles\BridgeApp.dir\OpenGLWindow\Win32Window.cpp.s
 
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/fontstash.cpp.obj: CMakeFiles/BridgeApp.dir/flags.make
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/fontstash.cpp.obj: CMakeFiles/BridgeApp.dir/includes_CXX.rsp
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/fontstash.cpp.obj: G:/bullet3/examples/OpenGLWindow/fontstash.cpp
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/fontstash.cpp.obj: CMakeFiles/BridgeApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\earring_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/fontstash.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/fontstash.cpp.obj -MF CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\fontstash.cpp.obj.d -o CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\fontstash.cpp.obj -c G:\bullet3\examples\OpenGLWindow\fontstash.cpp
+CMakeFiles/BridgeApp.dir/OpenGLWindow/Win32OpenGLWindow.cpp.obj: CMakeFiles/BridgeApp.dir/flags.make
+CMakeFiles/BridgeApp.dir/OpenGLWindow/Win32OpenGLWindow.cpp.obj: CMakeFiles/BridgeApp.dir/includes_CXX.rsp
+CMakeFiles/BridgeApp.dir/OpenGLWindow/Win32OpenGLWindow.cpp.obj: G:/bullet_demo/BridgeDemo/OpenGLWindow/Win32OpenGLWindow.cpp
+CMakeFiles/BridgeApp.dir/OpenGLWindow/Win32OpenGLWindow.cpp.obj: CMakeFiles/BridgeApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\bullet_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/BridgeApp.dir/OpenGLWindow/Win32OpenGLWindow.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BridgeApp.dir/OpenGLWindow/Win32OpenGLWindow.cpp.obj -MF CMakeFiles\BridgeApp.dir\OpenGLWindow\Win32OpenGLWindow.cpp.obj.d -o CMakeFiles\BridgeApp.dir\OpenGLWindow\Win32OpenGLWindow.cpp.obj -c G:\bullet_demo\BridgeDemo\OpenGLWindow\Win32OpenGLWindow.cpp
 
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/fontstash.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/fontstash.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\bullet3\examples\OpenGLWindow\fontstash.cpp > CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\fontstash.cpp.i
+CMakeFiles/BridgeApp.dir/OpenGLWindow/Win32OpenGLWindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BridgeApp.dir/OpenGLWindow/Win32OpenGLWindow.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\bullet_demo\BridgeDemo\OpenGLWindow\Win32OpenGLWindow.cpp > CMakeFiles\BridgeApp.dir\OpenGLWindow\Win32OpenGLWindow.cpp.i
 
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/fontstash.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/fontstash.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\bullet3\examples\OpenGLWindow\fontstash.cpp -o CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\fontstash.cpp.s
+CMakeFiles/BridgeApp.dir/OpenGLWindow/Win32OpenGLWindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BridgeApp.dir/OpenGLWindow/Win32OpenGLWindow.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\bullet_demo\BridgeDemo\OpenGLWindow\Win32OpenGLWindow.cpp -o CMakeFiles\BridgeApp.dir\OpenGLWindow\Win32OpenGLWindow.cpp.s
 
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/opengl_fontstashcallbacks.cpp.obj: CMakeFiles/BridgeApp.dir/flags.make
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/opengl_fontstashcallbacks.cpp.obj: CMakeFiles/BridgeApp.dir/includes_CXX.rsp
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/opengl_fontstashcallbacks.cpp.obj: G:/bullet3/examples/OpenGLWindow/opengl_fontstashcallbacks.cpp
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/opengl_fontstashcallbacks.cpp.obj: CMakeFiles/BridgeApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\earring_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/opengl_fontstashcallbacks.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/opengl_fontstashcallbacks.cpp.obj -MF CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\opengl_fontstashcallbacks.cpp.obj.d -o CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\opengl_fontstashcallbacks.cpp.obj -c G:\bullet3\examples\OpenGLWindow\opengl_fontstashcallbacks.cpp
+CMakeFiles/BridgeApp.dir/OpenGLWindow/SimpleOpenGL3App.cpp.obj: CMakeFiles/BridgeApp.dir/flags.make
+CMakeFiles/BridgeApp.dir/OpenGLWindow/SimpleOpenGL3App.cpp.obj: CMakeFiles/BridgeApp.dir/includes_CXX.rsp
+CMakeFiles/BridgeApp.dir/OpenGLWindow/SimpleOpenGL3App.cpp.obj: G:/bullet_demo/BridgeDemo/OpenGLWindow/SimpleOpenGL3App.cpp
+CMakeFiles/BridgeApp.dir/OpenGLWindow/SimpleOpenGL3App.cpp.obj: CMakeFiles/BridgeApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\bullet_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/BridgeApp.dir/OpenGLWindow/SimpleOpenGL3App.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BridgeApp.dir/OpenGLWindow/SimpleOpenGL3App.cpp.obj -MF CMakeFiles\BridgeApp.dir\OpenGLWindow\SimpleOpenGL3App.cpp.obj.d -o CMakeFiles\BridgeApp.dir\OpenGLWindow\SimpleOpenGL3App.cpp.obj -c G:\bullet_demo\BridgeDemo\OpenGLWindow\SimpleOpenGL3App.cpp
 
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/opengl_fontstashcallbacks.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/opengl_fontstashcallbacks.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\bullet3\examples\OpenGLWindow\opengl_fontstashcallbacks.cpp > CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\opengl_fontstashcallbacks.cpp.i
+CMakeFiles/BridgeApp.dir/OpenGLWindow/SimpleOpenGL3App.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BridgeApp.dir/OpenGLWindow/SimpleOpenGL3App.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\bullet_demo\BridgeDemo\OpenGLWindow\SimpleOpenGL3App.cpp > CMakeFiles\BridgeApp.dir\OpenGLWindow\SimpleOpenGL3App.cpp.i
 
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/opengl_fontstashcallbacks.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/opengl_fontstashcallbacks.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\bullet3\examples\OpenGLWindow\opengl_fontstashcallbacks.cpp -o CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\opengl_fontstashcallbacks.cpp.s
+CMakeFiles/BridgeApp.dir/OpenGLWindow/SimpleOpenGL3App.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BridgeApp.dir/OpenGLWindow/SimpleOpenGL3App.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\bullet_demo\BridgeDemo\OpenGLWindow\SimpleOpenGL3App.cpp -o CMakeFiles\BridgeApp.dir\OpenGLWindow\SimpleOpenGL3App.cpp.s
 
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLPrimitiveRenderer.cpp.obj: CMakeFiles/BridgeApp.dir/flags.make
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLPrimitiveRenderer.cpp.obj: CMakeFiles/BridgeApp.dir/includes_CXX.rsp
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLPrimitiveRenderer.cpp.obj: G:/bullet3/examples/OpenGLWindow/GLPrimitiveRenderer.cpp
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLPrimitiveRenderer.cpp.obj: CMakeFiles/BridgeApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\earring_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLPrimitiveRenderer.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLPrimitiveRenderer.cpp.obj -MF CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\GLPrimitiveRenderer.cpp.obj.d -o CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\GLPrimitiveRenderer.cpp.obj -c G:\bullet3\examples\OpenGLWindow\GLPrimitiveRenderer.cpp
+CMakeFiles/BridgeApp.dir/OpenGLWindow/SimpleCamera.cpp.obj: CMakeFiles/BridgeApp.dir/flags.make
+CMakeFiles/BridgeApp.dir/OpenGLWindow/SimpleCamera.cpp.obj: CMakeFiles/BridgeApp.dir/includes_CXX.rsp
+CMakeFiles/BridgeApp.dir/OpenGLWindow/SimpleCamera.cpp.obj: G:/bullet_demo/BridgeDemo/OpenGLWindow/SimpleCamera.cpp
+CMakeFiles/BridgeApp.dir/OpenGLWindow/SimpleCamera.cpp.obj: CMakeFiles/BridgeApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\bullet_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/BridgeApp.dir/OpenGLWindow/SimpleCamera.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BridgeApp.dir/OpenGLWindow/SimpleCamera.cpp.obj -MF CMakeFiles\BridgeApp.dir\OpenGLWindow\SimpleCamera.cpp.obj.d -o CMakeFiles\BridgeApp.dir\OpenGLWindow\SimpleCamera.cpp.obj -c G:\bullet_demo\BridgeDemo\OpenGLWindow\SimpleCamera.cpp
 
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLPrimitiveRenderer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLPrimitiveRenderer.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\bullet3\examples\OpenGLWindow\GLPrimitiveRenderer.cpp > CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\GLPrimitiveRenderer.cpp.i
+CMakeFiles/BridgeApp.dir/OpenGLWindow/SimpleCamera.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BridgeApp.dir/OpenGLWindow/SimpleCamera.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\bullet_demo\BridgeDemo\OpenGLWindow\SimpleCamera.cpp > CMakeFiles\BridgeApp.dir\OpenGLWindow\SimpleCamera.cpp.i
 
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLPrimitiveRenderer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLPrimitiveRenderer.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\bullet3\examples\OpenGLWindow\GLPrimitiveRenderer.cpp -o CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\GLPrimitiveRenderer.cpp.s
+CMakeFiles/BridgeApp.dir/OpenGLWindow/SimpleCamera.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BridgeApp.dir/OpenGLWindow/SimpleCamera.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\bullet_demo\BridgeDemo\OpenGLWindow\SimpleCamera.cpp -o CMakeFiles\BridgeApp.dir\OpenGLWindow\SimpleCamera.cpp.s
 
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLInstancingRenderer.cpp.obj: CMakeFiles/BridgeApp.dir/flags.make
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLInstancingRenderer.cpp.obj: CMakeFiles/BridgeApp.dir/includes_CXX.rsp
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLInstancingRenderer.cpp.obj: G:/bullet3/examples/OpenGLWindow/GLInstancingRenderer.cpp
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLInstancingRenderer.cpp.obj: CMakeFiles/BridgeApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\earring_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLInstancingRenderer.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLInstancingRenderer.cpp.obj -MF CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\GLInstancingRenderer.cpp.obj.d -o CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\GLInstancingRenderer.cpp.obj -c G:\bullet3\examples\OpenGLWindow\GLInstancingRenderer.cpp
+CMakeFiles/BridgeApp.dir/OpenGLWindow/fontstash.cpp.obj: CMakeFiles/BridgeApp.dir/flags.make
+CMakeFiles/BridgeApp.dir/OpenGLWindow/fontstash.cpp.obj: CMakeFiles/BridgeApp.dir/includes_CXX.rsp
+CMakeFiles/BridgeApp.dir/OpenGLWindow/fontstash.cpp.obj: G:/bullet_demo/BridgeDemo/OpenGLWindow/fontstash.cpp
+CMakeFiles/BridgeApp.dir/OpenGLWindow/fontstash.cpp.obj: CMakeFiles/BridgeApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\bullet_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/BridgeApp.dir/OpenGLWindow/fontstash.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BridgeApp.dir/OpenGLWindow/fontstash.cpp.obj -MF CMakeFiles\BridgeApp.dir\OpenGLWindow\fontstash.cpp.obj.d -o CMakeFiles\BridgeApp.dir\OpenGLWindow\fontstash.cpp.obj -c G:\bullet_demo\BridgeDemo\OpenGLWindow\fontstash.cpp
 
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLInstancingRenderer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLInstancingRenderer.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\bullet3\examples\OpenGLWindow\GLInstancingRenderer.cpp > CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\GLInstancingRenderer.cpp.i
+CMakeFiles/BridgeApp.dir/OpenGLWindow/fontstash.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BridgeApp.dir/OpenGLWindow/fontstash.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\bullet_demo\BridgeDemo\OpenGLWindow\fontstash.cpp > CMakeFiles\BridgeApp.dir\OpenGLWindow\fontstash.cpp.i
 
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLInstancingRenderer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLInstancingRenderer.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\bullet3\examples\OpenGLWindow\GLInstancingRenderer.cpp -o CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\GLInstancingRenderer.cpp.s
+CMakeFiles/BridgeApp.dir/OpenGLWindow/fontstash.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BridgeApp.dir/OpenGLWindow/fontstash.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\bullet_demo\BridgeDemo\OpenGLWindow\fontstash.cpp -o CMakeFiles\BridgeApp.dir\OpenGLWindow\fontstash.cpp.s
 
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLRenderToTexture.cpp.obj: CMakeFiles/BridgeApp.dir/flags.make
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLRenderToTexture.cpp.obj: CMakeFiles/BridgeApp.dir/includes_CXX.rsp
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLRenderToTexture.cpp.obj: G:/bullet3/examples/OpenGLWindow/GLRenderToTexture.cpp
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLRenderToTexture.cpp.obj: CMakeFiles/BridgeApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\earring_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLRenderToTexture.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLRenderToTexture.cpp.obj -MF CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\GLRenderToTexture.cpp.obj.d -o CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\GLRenderToTexture.cpp.obj -c G:\bullet3\examples\OpenGLWindow\GLRenderToTexture.cpp
+CMakeFiles/BridgeApp.dir/OpenGLWindow/opengl_fontstashcallbacks.cpp.obj: CMakeFiles/BridgeApp.dir/flags.make
+CMakeFiles/BridgeApp.dir/OpenGLWindow/opengl_fontstashcallbacks.cpp.obj: CMakeFiles/BridgeApp.dir/includes_CXX.rsp
+CMakeFiles/BridgeApp.dir/OpenGLWindow/opengl_fontstashcallbacks.cpp.obj: G:/bullet_demo/BridgeDemo/OpenGLWindow/opengl_fontstashcallbacks.cpp
+CMakeFiles/BridgeApp.dir/OpenGLWindow/opengl_fontstashcallbacks.cpp.obj: CMakeFiles/BridgeApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\bullet_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/BridgeApp.dir/OpenGLWindow/opengl_fontstashcallbacks.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BridgeApp.dir/OpenGLWindow/opengl_fontstashcallbacks.cpp.obj -MF CMakeFiles\BridgeApp.dir\OpenGLWindow\opengl_fontstashcallbacks.cpp.obj.d -o CMakeFiles\BridgeApp.dir\OpenGLWindow\opengl_fontstashcallbacks.cpp.obj -c G:\bullet_demo\BridgeDemo\OpenGLWindow\opengl_fontstashcallbacks.cpp
 
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLRenderToTexture.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLRenderToTexture.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\bullet3\examples\OpenGLWindow\GLRenderToTexture.cpp > CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\GLRenderToTexture.cpp.i
+CMakeFiles/BridgeApp.dir/OpenGLWindow/opengl_fontstashcallbacks.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BridgeApp.dir/OpenGLWindow/opengl_fontstashcallbacks.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\bullet_demo\BridgeDemo\OpenGLWindow\opengl_fontstashcallbacks.cpp > CMakeFiles\BridgeApp.dir\OpenGLWindow\opengl_fontstashcallbacks.cpp.i
 
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLRenderToTexture.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLRenderToTexture.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\bullet3\examples\OpenGLWindow\GLRenderToTexture.cpp -o CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\GLRenderToTexture.cpp.s
+CMakeFiles/BridgeApp.dir/OpenGLWindow/opengl_fontstashcallbacks.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BridgeApp.dir/OpenGLWindow/opengl_fontstashcallbacks.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\bullet_demo\BridgeDemo\OpenGLWindow\opengl_fontstashcallbacks.cpp -o CMakeFiles\BridgeApp.dir\OpenGLWindow\opengl_fontstashcallbacks.cpp.s
 
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/LoadShader.cpp.obj: CMakeFiles/BridgeApp.dir/flags.make
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/LoadShader.cpp.obj: CMakeFiles/BridgeApp.dir/includes_CXX.rsp
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/LoadShader.cpp.obj: G:/bullet3/examples/OpenGLWindow/LoadShader.cpp
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/LoadShader.cpp.obj: CMakeFiles/BridgeApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\earring_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/LoadShader.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/LoadShader.cpp.obj -MF CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\LoadShader.cpp.obj.d -o CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\LoadShader.cpp.obj -c G:\bullet3\examples\OpenGLWindow\LoadShader.cpp
+CMakeFiles/BridgeApp.dir/OpenGLWindow/GLPrimitiveRenderer.cpp.obj: CMakeFiles/BridgeApp.dir/flags.make
+CMakeFiles/BridgeApp.dir/OpenGLWindow/GLPrimitiveRenderer.cpp.obj: CMakeFiles/BridgeApp.dir/includes_CXX.rsp
+CMakeFiles/BridgeApp.dir/OpenGLWindow/GLPrimitiveRenderer.cpp.obj: G:/bullet_demo/BridgeDemo/OpenGLWindow/GLPrimitiveRenderer.cpp
+CMakeFiles/BridgeApp.dir/OpenGLWindow/GLPrimitiveRenderer.cpp.obj: CMakeFiles/BridgeApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\bullet_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/BridgeApp.dir/OpenGLWindow/GLPrimitiveRenderer.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BridgeApp.dir/OpenGLWindow/GLPrimitiveRenderer.cpp.obj -MF CMakeFiles\BridgeApp.dir\OpenGLWindow\GLPrimitiveRenderer.cpp.obj.d -o CMakeFiles\BridgeApp.dir\OpenGLWindow\GLPrimitiveRenderer.cpp.obj -c G:\bullet_demo\BridgeDemo\OpenGLWindow\GLPrimitiveRenderer.cpp
 
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/LoadShader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/LoadShader.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\bullet3\examples\OpenGLWindow\LoadShader.cpp > CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\LoadShader.cpp.i
+CMakeFiles/BridgeApp.dir/OpenGLWindow/GLPrimitiveRenderer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BridgeApp.dir/OpenGLWindow/GLPrimitiveRenderer.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\bullet_demo\BridgeDemo\OpenGLWindow\GLPrimitiveRenderer.cpp > CMakeFiles\BridgeApp.dir\OpenGLWindow\GLPrimitiveRenderer.cpp.i
 
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/LoadShader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/LoadShader.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\bullet3\examples\OpenGLWindow\LoadShader.cpp -o CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\LoadShader.cpp.s
+CMakeFiles/BridgeApp.dir/OpenGLWindow/GLPrimitiveRenderer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BridgeApp.dir/OpenGLWindow/GLPrimitiveRenderer.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\bullet_demo\BridgeDemo\OpenGLWindow\GLPrimitiveRenderer.cpp -o CMakeFiles\BridgeApp.dir\OpenGLWindow\GLPrimitiveRenderer.cpp.s
 
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/OpenSans.cpp.obj: CMakeFiles/BridgeApp.dir/flags.make
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/OpenSans.cpp.obj: CMakeFiles/BridgeApp.dir/includes_CXX.rsp
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/OpenSans.cpp.obj: G:/bullet3/examples/OpenGLWindow/OpenSans.cpp
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/OpenSans.cpp.obj: CMakeFiles/BridgeApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\earring_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/OpenSans.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/OpenSans.cpp.obj -MF CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\OpenSans.cpp.obj.d -o CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\OpenSans.cpp.obj -c G:\bullet3\examples\OpenGLWindow\OpenSans.cpp
+CMakeFiles/BridgeApp.dir/OpenGLWindow/GLInstancingRenderer.cpp.obj: CMakeFiles/BridgeApp.dir/flags.make
+CMakeFiles/BridgeApp.dir/OpenGLWindow/GLInstancingRenderer.cpp.obj: CMakeFiles/BridgeApp.dir/includes_CXX.rsp
+CMakeFiles/BridgeApp.dir/OpenGLWindow/GLInstancingRenderer.cpp.obj: G:/bullet_demo/BridgeDemo/OpenGLWindow/GLInstancingRenderer.cpp
+CMakeFiles/BridgeApp.dir/OpenGLWindow/GLInstancingRenderer.cpp.obj: CMakeFiles/BridgeApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\bullet_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/BridgeApp.dir/OpenGLWindow/GLInstancingRenderer.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BridgeApp.dir/OpenGLWindow/GLInstancingRenderer.cpp.obj -MF CMakeFiles\BridgeApp.dir\OpenGLWindow\GLInstancingRenderer.cpp.obj.d -o CMakeFiles\BridgeApp.dir\OpenGLWindow\GLInstancingRenderer.cpp.obj -c G:\bullet_demo\BridgeDemo\OpenGLWindow\GLInstancingRenderer.cpp
 
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/OpenSans.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/OpenSans.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\bullet3\examples\OpenGLWindow\OpenSans.cpp > CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\OpenSans.cpp.i
+CMakeFiles/BridgeApp.dir/OpenGLWindow/GLInstancingRenderer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BridgeApp.dir/OpenGLWindow/GLInstancingRenderer.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\bullet_demo\BridgeDemo\OpenGLWindow\GLInstancingRenderer.cpp > CMakeFiles\BridgeApp.dir\OpenGLWindow\GLInstancingRenderer.cpp.i
 
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/OpenSans.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/OpenSans.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\bullet3\examples\OpenGLWindow\OpenSans.cpp -o CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\OpenSans.cpp.s
+CMakeFiles/BridgeApp.dir/OpenGLWindow/GLInstancingRenderer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BridgeApp.dir/OpenGLWindow/GLInstancingRenderer.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\bullet_demo\BridgeDemo\OpenGLWindow\GLInstancingRenderer.cpp -o CMakeFiles\BridgeApp.dir\OpenGLWindow\GLInstancingRenderer.cpp.s
 
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/TwFonts.cpp.obj: CMakeFiles/BridgeApp.dir/flags.make
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/TwFonts.cpp.obj: CMakeFiles/BridgeApp.dir/includes_CXX.rsp
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/TwFonts.cpp.obj: G:/bullet3/examples/OpenGLWindow/TwFonts.cpp
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/TwFonts.cpp.obj: CMakeFiles/BridgeApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\earring_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/TwFonts.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/TwFonts.cpp.obj -MF CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\TwFonts.cpp.obj.d -o CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\TwFonts.cpp.obj -c G:\bullet3\examples\OpenGLWindow\TwFonts.cpp
+CMakeFiles/BridgeApp.dir/OpenGLWindow/GLRenderToTexture.cpp.obj: CMakeFiles/BridgeApp.dir/flags.make
+CMakeFiles/BridgeApp.dir/OpenGLWindow/GLRenderToTexture.cpp.obj: CMakeFiles/BridgeApp.dir/includes_CXX.rsp
+CMakeFiles/BridgeApp.dir/OpenGLWindow/GLRenderToTexture.cpp.obj: G:/bullet_demo/BridgeDemo/OpenGLWindow/GLRenderToTexture.cpp
+CMakeFiles/BridgeApp.dir/OpenGLWindow/GLRenderToTexture.cpp.obj: CMakeFiles/BridgeApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\bullet_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/BridgeApp.dir/OpenGLWindow/GLRenderToTexture.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BridgeApp.dir/OpenGLWindow/GLRenderToTexture.cpp.obj -MF CMakeFiles\BridgeApp.dir\OpenGLWindow\GLRenderToTexture.cpp.obj.d -o CMakeFiles\BridgeApp.dir\OpenGLWindow\GLRenderToTexture.cpp.obj -c G:\bullet_demo\BridgeDemo\OpenGLWindow\GLRenderToTexture.cpp
 
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/TwFonts.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/TwFonts.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\bullet3\examples\OpenGLWindow\TwFonts.cpp > CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\TwFonts.cpp.i
+CMakeFiles/BridgeApp.dir/OpenGLWindow/GLRenderToTexture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BridgeApp.dir/OpenGLWindow/GLRenderToTexture.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\bullet_demo\BridgeDemo\OpenGLWindow\GLRenderToTexture.cpp > CMakeFiles\BridgeApp.dir\OpenGLWindow\GLRenderToTexture.cpp.i
 
-CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/TwFonts.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/TwFonts.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\bullet3\examples\OpenGLWindow\TwFonts.cpp -o CMakeFiles\BridgeApp.dir\G_\bullet3\examples\OpenGLWindow\TwFonts.cpp.s
+CMakeFiles/BridgeApp.dir/OpenGLWindow/GLRenderToTexture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BridgeApp.dir/OpenGLWindow/GLRenderToTexture.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\bullet_demo\BridgeDemo\OpenGLWindow\GLRenderToTexture.cpp -o CMakeFiles\BridgeApp.dir\OpenGLWindow\GLRenderToTexture.cpp.s
+
+CMakeFiles/BridgeApp.dir/OpenGLWindow/LoadShader.cpp.obj: CMakeFiles/BridgeApp.dir/flags.make
+CMakeFiles/BridgeApp.dir/OpenGLWindow/LoadShader.cpp.obj: CMakeFiles/BridgeApp.dir/includes_CXX.rsp
+CMakeFiles/BridgeApp.dir/OpenGLWindow/LoadShader.cpp.obj: G:/bullet_demo/BridgeDemo/OpenGLWindow/LoadShader.cpp
+CMakeFiles/BridgeApp.dir/OpenGLWindow/LoadShader.cpp.obj: CMakeFiles/BridgeApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\bullet_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/BridgeApp.dir/OpenGLWindow/LoadShader.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BridgeApp.dir/OpenGLWindow/LoadShader.cpp.obj -MF CMakeFiles\BridgeApp.dir\OpenGLWindow\LoadShader.cpp.obj.d -o CMakeFiles\BridgeApp.dir\OpenGLWindow\LoadShader.cpp.obj -c G:\bullet_demo\BridgeDemo\OpenGLWindow\LoadShader.cpp
+
+CMakeFiles/BridgeApp.dir/OpenGLWindow/LoadShader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BridgeApp.dir/OpenGLWindow/LoadShader.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\bullet_demo\BridgeDemo\OpenGLWindow\LoadShader.cpp > CMakeFiles\BridgeApp.dir\OpenGLWindow\LoadShader.cpp.i
+
+CMakeFiles/BridgeApp.dir/OpenGLWindow/LoadShader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BridgeApp.dir/OpenGLWindow/LoadShader.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\bullet_demo\BridgeDemo\OpenGLWindow\LoadShader.cpp -o CMakeFiles\BridgeApp.dir\OpenGLWindow\LoadShader.cpp.s
+
+CMakeFiles/BridgeApp.dir/OpenGLWindow/OpenSans.cpp.obj: CMakeFiles/BridgeApp.dir/flags.make
+CMakeFiles/BridgeApp.dir/OpenGLWindow/OpenSans.cpp.obj: CMakeFiles/BridgeApp.dir/includes_CXX.rsp
+CMakeFiles/BridgeApp.dir/OpenGLWindow/OpenSans.cpp.obj: G:/bullet_demo/BridgeDemo/OpenGLWindow/OpenSans.cpp
+CMakeFiles/BridgeApp.dir/OpenGLWindow/OpenSans.cpp.obj: CMakeFiles/BridgeApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\bullet_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/BridgeApp.dir/OpenGLWindow/OpenSans.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BridgeApp.dir/OpenGLWindow/OpenSans.cpp.obj -MF CMakeFiles\BridgeApp.dir\OpenGLWindow\OpenSans.cpp.obj.d -o CMakeFiles\BridgeApp.dir\OpenGLWindow\OpenSans.cpp.obj -c G:\bullet_demo\BridgeDemo\OpenGLWindow\OpenSans.cpp
+
+CMakeFiles/BridgeApp.dir/OpenGLWindow/OpenSans.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BridgeApp.dir/OpenGLWindow/OpenSans.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\bullet_demo\BridgeDemo\OpenGLWindow\OpenSans.cpp > CMakeFiles\BridgeApp.dir\OpenGLWindow\OpenSans.cpp.i
+
+CMakeFiles/BridgeApp.dir/OpenGLWindow/OpenSans.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BridgeApp.dir/OpenGLWindow/OpenSans.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\bullet_demo\BridgeDemo\OpenGLWindow\OpenSans.cpp -o CMakeFiles\BridgeApp.dir\OpenGLWindow\OpenSans.cpp.s
+
+CMakeFiles/BridgeApp.dir/OpenGLWindow/TwFonts.cpp.obj: CMakeFiles/BridgeApp.dir/flags.make
+CMakeFiles/BridgeApp.dir/OpenGLWindow/TwFonts.cpp.obj: CMakeFiles/BridgeApp.dir/includes_CXX.rsp
+CMakeFiles/BridgeApp.dir/OpenGLWindow/TwFonts.cpp.obj: G:/bullet_demo/BridgeDemo/OpenGLWindow/TwFonts.cpp
+CMakeFiles/BridgeApp.dir/OpenGLWindow/TwFonts.cpp.obj: CMakeFiles/BridgeApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\bullet_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/BridgeApp.dir/OpenGLWindow/TwFonts.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BridgeApp.dir/OpenGLWindow/TwFonts.cpp.obj -MF CMakeFiles\BridgeApp.dir\OpenGLWindow\TwFonts.cpp.obj.d -o CMakeFiles\BridgeApp.dir\OpenGLWindow\TwFonts.cpp.obj -c G:\bullet_demo\BridgeDemo\OpenGLWindow\TwFonts.cpp
+
+CMakeFiles/BridgeApp.dir/OpenGLWindow/TwFonts.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BridgeApp.dir/OpenGLWindow/TwFonts.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\bullet_demo\BridgeDemo\OpenGLWindow\TwFonts.cpp > CMakeFiles\BridgeApp.dir\OpenGLWindow\TwFonts.cpp.i
+
+CMakeFiles/BridgeApp.dir/OpenGLWindow/TwFonts.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BridgeApp.dir/OpenGLWindow/TwFonts.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\bullet_demo\BridgeDemo\OpenGLWindow\TwFonts.cpp -o CMakeFiles\BridgeApp.dir\OpenGLWindow\TwFonts.cpp.s
+
+CMakeFiles/BridgeApp.dir/ExampleBrowser/OpenGLGuiHelper.cpp.obj: CMakeFiles/BridgeApp.dir/flags.make
+CMakeFiles/BridgeApp.dir/ExampleBrowser/OpenGLGuiHelper.cpp.obj: CMakeFiles/BridgeApp.dir/includes_CXX.rsp
+CMakeFiles/BridgeApp.dir/ExampleBrowser/OpenGLGuiHelper.cpp.obj: G:/bullet_demo/BridgeDemo/ExampleBrowser/OpenGLGuiHelper.cpp
+CMakeFiles/BridgeApp.dir/ExampleBrowser/OpenGLGuiHelper.cpp.obj: CMakeFiles/BridgeApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\bullet_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/BridgeApp.dir/ExampleBrowser/OpenGLGuiHelper.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BridgeApp.dir/ExampleBrowser/OpenGLGuiHelper.cpp.obj -MF CMakeFiles\BridgeApp.dir\ExampleBrowser\OpenGLGuiHelper.cpp.obj.d -o CMakeFiles\BridgeApp.dir\ExampleBrowser\OpenGLGuiHelper.cpp.obj -c G:\bullet_demo\BridgeDemo\ExampleBrowser\OpenGLGuiHelper.cpp
+
+CMakeFiles/BridgeApp.dir/ExampleBrowser/OpenGLGuiHelper.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BridgeApp.dir/ExampleBrowser/OpenGLGuiHelper.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\bullet_demo\BridgeDemo\ExampleBrowser\OpenGLGuiHelper.cpp > CMakeFiles\BridgeApp.dir\ExampleBrowser\OpenGLGuiHelper.cpp.i
+
+CMakeFiles/BridgeApp.dir/ExampleBrowser/OpenGLGuiHelper.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BridgeApp.dir/ExampleBrowser/OpenGLGuiHelper.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\bullet_demo\BridgeDemo\ExampleBrowser\OpenGLGuiHelper.cpp -o CMakeFiles\BridgeApp.dir\ExampleBrowser\OpenGLGuiHelper.cpp.s
+
+CMakeFiles/BridgeApp.dir/ExampleBrowser/CollisionShape2TriangleMesh.cpp.obj: CMakeFiles/BridgeApp.dir/flags.make
+CMakeFiles/BridgeApp.dir/ExampleBrowser/CollisionShape2TriangleMesh.cpp.obj: CMakeFiles/BridgeApp.dir/includes_CXX.rsp
+CMakeFiles/BridgeApp.dir/ExampleBrowser/CollisionShape2TriangleMesh.cpp.obj: G:/bullet_demo/BridgeDemo/ExampleBrowser/CollisionShape2TriangleMesh.cpp
+CMakeFiles/BridgeApp.dir/ExampleBrowser/CollisionShape2TriangleMesh.cpp.obj: CMakeFiles/BridgeApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\bullet_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/BridgeApp.dir/ExampleBrowser/CollisionShape2TriangleMesh.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BridgeApp.dir/ExampleBrowser/CollisionShape2TriangleMesh.cpp.obj -MF CMakeFiles\BridgeApp.dir\ExampleBrowser\CollisionShape2TriangleMesh.cpp.obj.d -o CMakeFiles\BridgeApp.dir\ExampleBrowser\CollisionShape2TriangleMesh.cpp.obj -c G:\bullet_demo\BridgeDemo\ExampleBrowser\CollisionShape2TriangleMesh.cpp
+
+CMakeFiles/BridgeApp.dir/ExampleBrowser/CollisionShape2TriangleMesh.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BridgeApp.dir/ExampleBrowser/CollisionShape2TriangleMesh.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\bullet_demo\BridgeDemo\ExampleBrowser\CollisionShape2TriangleMesh.cpp > CMakeFiles\BridgeApp.dir\ExampleBrowser\CollisionShape2TriangleMesh.cpp.i
+
+CMakeFiles/BridgeApp.dir/ExampleBrowser/CollisionShape2TriangleMesh.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BridgeApp.dir/ExampleBrowser/CollisionShape2TriangleMesh.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\bullet_demo\BridgeDemo\ExampleBrowser\CollisionShape2TriangleMesh.cpp -o CMakeFiles\BridgeApp.dir\ExampleBrowser\CollisionShape2TriangleMesh.cpp.s
 
 # Object files for target BridgeApp
 BridgeApp_OBJECTS = \
 "CMakeFiles/BridgeApp.dir/main.cpp.obj" \
 "CMakeFiles/BridgeApp.dir/Bridge.cpp.obj" \
-"CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/glad/gl.c.obj" \
-"CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image.cpp.obj" \
-"CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image_write.cpp.obj" \
-"CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/Win32Window.cpp.obj" \
-"CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/Win32OpenGLWindow.cpp.obj" \
-"CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/SimpleOpenGL3App.cpp.obj" \
-"CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/SimpleCamera.cpp.obj" \
-"CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/fontstash.cpp.obj" \
-"CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/opengl_fontstashcallbacks.cpp.obj" \
-"CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLPrimitiveRenderer.cpp.obj" \
-"CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLInstancingRenderer.cpp.obj" \
-"CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLRenderToTexture.cpp.obj" \
-"CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/LoadShader.cpp.obj" \
-"CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/OpenSans.cpp.obj" \
-"CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/TwFonts.cpp.obj"
+"CMakeFiles/BridgeApp.dir/linker_fixes.cpp.obj" \
+"CMakeFiles/BridgeApp.dir/Importers/ImportSTLDemo/ImportSTLSetup.cpp.obj" \
+"CMakeFiles/BridgeApp.dir/ThirdPartyLibs/glad/gl.c.obj" \
+"CMakeFiles/BridgeApp.dir/Importers/ImportObjDemo/Wavefront2GLInstanceGraphicsShape.cpp.obj" \
+"CMakeFiles/BridgeApp.dir/Utils/b3ResourcePath.cpp.obj" \
+"CMakeFiles/BridgeApp.dir/Utils/b3Clock.cpp.obj" \
+"CMakeFiles/BridgeApp.dir/OpenGLWindow/Win32Window.cpp.obj" \
+"CMakeFiles/BridgeApp.dir/OpenGLWindow/Win32OpenGLWindow.cpp.obj" \
+"CMakeFiles/BridgeApp.dir/OpenGLWindow/SimpleOpenGL3App.cpp.obj" \
+"CMakeFiles/BridgeApp.dir/OpenGLWindow/SimpleCamera.cpp.obj" \
+"CMakeFiles/BridgeApp.dir/OpenGLWindow/fontstash.cpp.obj" \
+"CMakeFiles/BridgeApp.dir/OpenGLWindow/opengl_fontstashcallbacks.cpp.obj" \
+"CMakeFiles/BridgeApp.dir/OpenGLWindow/GLPrimitiveRenderer.cpp.obj" \
+"CMakeFiles/BridgeApp.dir/OpenGLWindow/GLInstancingRenderer.cpp.obj" \
+"CMakeFiles/BridgeApp.dir/OpenGLWindow/GLRenderToTexture.cpp.obj" \
+"CMakeFiles/BridgeApp.dir/OpenGLWindow/LoadShader.cpp.obj" \
+"CMakeFiles/BridgeApp.dir/OpenGLWindow/OpenSans.cpp.obj" \
+"CMakeFiles/BridgeApp.dir/OpenGLWindow/TwFonts.cpp.obj" \
+"CMakeFiles/BridgeApp.dir/ExampleBrowser/OpenGLGuiHelper.cpp.obj" \
+"CMakeFiles/BridgeApp.dir/ExampleBrowser/CollisionShape2TriangleMesh.cpp.obj"
 
 # External object files for target BridgeApp
 BridgeApp_EXTERNAL_OBJECTS =
 
 BridgeApp.exe: CMakeFiles/BridgeApp.dir/main.cpp.obj
 BridgeApp.exe: CMakeFiles/BridgeApp.dir/Bridge.cpp.obj
-BridgeApp.exe: CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/glad/gl.c.obj
-BridgeApp.exe: CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image.cpp.obj
-BridgeApp.exe: CMakeFiles/BridgeApp.dir/G_/bullet3/examples/ThirdPartyLibs/stb_image/stb_image_write.cpp.obj
-BridgeApp.exe: CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/Win32Window.cpp.obj
-BridgeApp.exe: CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/Win32OpenGLWindow.cpp.obj
-BridgeApp.exe: CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/SimpleOpenGL3App.cpp.obj
-BridgeApp.exe: CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/SimpleCamera.cpp.obj
-BridgeApp.exe: CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/fontstash.cpp.obj
-BridgeApp.exe: CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/opengl_fontstashcallbacks.cpp.obj
-BridgeApp.exe: CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLPrimitiveRenderer.cpp.obj
-BridgeApp.exe: CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLInstancingRenderer.cpp.obj
-BridgeApp.exe: CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/GLRenderToTexture.cpp.obj
-BridgeApp.exe: CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/LoadShader.cpp.obj
-BridgeApp.exe: CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/OpenSans.cpp.obj
-BridgeApp.exe: CMakeFiles/BridgeApp.dir/G_/bullet3/examples/OpenGLWindow/TwFonts.cpp.obj
+BridgeApp.exe: CMakeFiles/BridgeApp.dir/linker_fixes.cpp.obj
+BridgeApp.exe: CMakeFiles/BridgeApp.dir/Importers/ImportSTLDemo/ImportSTLSetup.cpp.obj
+BridgeApp.exe: CMakeFiles/BridgeApp.dir/ThirdPartyLibs/glad/gl.c.obj
+BridgeApp.exe: CMakeFiles/BridgeApp.dir/Importers/ImportObjDemo/Wavefront2GLInstanceGraphicsShape.cpp.obj
+BridgeApp.exe: CMakeFiles/BridgeApp.dir/Utils/b3ResourcePath.cpp.obj
+BridgeApp.exe: CMakeFiles/BridgeApp.dir/Utils/b3Clock.cpp.obj
+BridgeApp.exe: CMakeFiles/BridgeApp.dir/OpenGLWindow/Win32Window.cpp.obj
+BridgeApp.exe: CMakeFiles/BridgeApp.dir/OpenGLWindow/Win32OpenGLWindow.cpp.obj
+BridgeApp.exe: CMakeFiles/BridgeApp.dir/OpenGLWindow/SimpleOpenGL3App.cpp.obj
+BridgeApp.exe: CMakeFiles/BridgeApp.dir/OpenGLWindow/SimpleCamera.cpp.obj
+BridgeApp.exe: CMakeFiles/BridgeApp.dir/OpenGLWindow/fontstash.cpp.obj
+BridgeApp.exe: CMakeFiles/BridgeApp.dir/OpenGLWindow/opengl_fontstashcallbacks.cpp.obj
+BridgeApp.exe: CMakeFiles/BridgeApp.dir/OpenGLWindow/GLPrimitiveRenderer.cpp.obj
+BridgeApp.exe: CMakeFiles/BridgeApp.dir/OpenGLWindow/GLInstancingRenderer.cpp.obj
+BridgeApp.exe: CMakeFiles/BridgeApp.dir/OpenGLWindow/GLRenderToTexture.cpp.obj
+BridgeApp.exe: CMakeFiles/BridgeApp.dir/OpenGLWindow/LoadShader.cpp.obj
+BridgeApp.exe: CMakeFiles/BridgeApp.dir/OpenGLWindow/OpenSans.cpp.obj
+BridgeApp.exe: CMakeFiles/BridgeApp.dir/OpenGLWindow/TwFonts.cpp.obj
+BridgeApp.exe: CMakeFiles/BridgeApp.dir/ExampleBrowser/OpenGLGuiHelper.cpp.obj
+BridgeApp.exe: CMakeFiles/BridgeApp.dir/ExampleBrowser/CollisionShape2TriangleMesh.cpp.obj
 BridgeApp.exe: CMakeFiles/BridgeApp.dir/build.make
-BridgeApp.exe: G:/bullet3/build/lib/libBulletDynamics.a
-BridgeApp.exe: G:/bullet3/build/lib/libBulletCollision.a
-BridgeApp.exe: G:/bullet3/build/lib/libLinearMath.a
 BridgeApp.exe: CMakeFiles/BridgeApp.dir/linkLibs.rsp
 BridgeApp.exe: CMakeFiles/BridgeApp.dir/objects1.rsp
 BridgeApp.exe: CMakeFiles/BridgeApp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=G:\earring_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable BridgeApp.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=G:\bullet_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable BridgeApp.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\BridgeApp.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -385,6 +467,6 @@ CMakeFiles/BridgeApp.dir/clean:
 .PHONY : CMakeFiles/BridgeApp.dir/clean
 
 CMakeFiles/BridgeApp.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" G:\earring_demo\BridgeDemo G:\earring_demo\BridgeDemo G:\earring_demo\build G:\earring_demo\build G:\earring_demo\build\CMakeFiles\BridgeApp.dir\DependInfo.cmake "--color=$(COLOR)" BridgeApp
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" G:\bullet_demo\BridgeDemo G:\bullet_demo\BridgeDemo G:\bullet_demo\build G:\bullet_demo\build G:\bullet_demo\build\CMakeFiles\BridgeApp.dir\DependInfo.cmake "--color=$(COLOR)" BridgeApp
 .PHONY : CMakeFiles/BridgeApp.dir/depend
 

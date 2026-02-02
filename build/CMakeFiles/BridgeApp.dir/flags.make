@@ -3,13 +3,13 @@
 
 # compile C with C:/msys64/ucrt64/bin/gcc.exe
 # compile CXX with C:/msys64/ucrt64/bin/g++.exe
-C_DEFINES = -D_WIN32
+C_DEFINES = -DB3_USE_STANDALONE_EXAMPLE -D_WIN32
 
 C_INCLUDES = @CMakeFiles/BridgeApp.dir/includes_C.rsp
 
 C_FLAGS = -g
 
-CXX_DEFINES = -D_WIN32
+CXX_DEFINES = -DB3_USE_STANDALONE_EXAMPLE -D_WIN32
 
 CXX_INCLUDES = @CMakeFiles/BridgeApp.dir/includes_CXX.rsp
 

@@ -53,10 +53,10 @@ RM = C:\msys64\ucrt64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = G:\earring_demo\BridgeDemo
+CMAKE_SOURCE_DIR = G:\bullet_demo\BridgeDemo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = G:\earring_demo\build
+CMAKE_BINARY_DIR = G:\bullet_demo\build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -84,14 +84,14 @@ clean: CMakeFiles/BridgeApp.dir/clean
 CMakeFiles/BridgeApp.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=G:\earring_demo\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18 "Built target BridgeApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=G:\bullet_demo\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23 "Built target BridgeApp"
 .PHONY : CMakeFiles/BridgeApp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/BridgeApp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start G:\earring_demo\build\CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start G:\bullet_demo\build\CMakeFiles 23
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/BridgeApp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start G:\earring_demo\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start G:\bullet_demo\build\CMakeFiles 0
 .PHONY : CMakeFiles/BridgeApp.dir/rule
 
 # Convenience name for target.
@@ -101,7 +101,7 @@ BridgeApp: CMakeFiles/BridgeApp.dir/rule
 # codegen rule for target.
 CMakeFiles/BridgeApp.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BridgeApp.dir\build.make CMakeFiles/BridgeApp.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=G:\earring_demo\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18 "Finished codegen for target BridgeApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=G:\bullet_demo\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23 "Finished codegen for target BridgeApp"
 .PHONY : CMakeFiles/BridgeApp.dir/codegen
 
 # clean rule for target.

@@ -1,1 +1,1 @@
--IG:/earring_demo/BridgeDemo/. -IG:/bullet3/src -IG:/bullet3/examples -IG:/bullet3/examples/ThirdPartyLibs -IG:/bullet3/examples/ThirdPartyLibs/glad -IG:/bullet3/examples/ThirdPartyLibs/glad/include
+-IG:/bullet_demo/BridgeDemo/. -IG:/bullet_demo/src -IG:/bullet_demo/BridgeDemo -IG:/bullet_demo/BridgeDemo/ThirdPartyLibs -IG:/bullet_demo/BridgeDemo/ThirdPartyLibs/glad -IG:/bullet_demo/BridgeDemo/ThirdPartyLibs/Wavefront -IG:/bullet_demo/BridgeDemo/ThirdPartyLibs/stb_image
