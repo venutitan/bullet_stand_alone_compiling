@@ -26,7 +26,7 @@ subject to the following restrictions:
 #include "OpenGLWindow/GLInstanceGraphicsShape.h"
 #include  "Importers/ImportSTLDemo/LoadMeshFromSTL.h"
 
-const int TOTAL_PLANKS = 4;
+const int TOTAL_PLANKS = 10;
 struct BridgeExample : public CommonRigidBodyBase
 {
 	BridgeExample(struct GUIHelperInterface* helper)
@@ -53,10 +53,10 @@ void BridgeExample::initPhysics()
 
     // 1. Load the STL instead of OBJ
     b3BulletDefaultFileIO fileIO;
-    const char* stlPath = "G:\\bullet3\\examples\\pybullet\\gym\\pybullet_data\\bicycle\\files\\bike_rack.stl"; // Or your full path
+    const char* stlPath = "G:\\bullet3\\examples\\pybullet\\gym\\pybullet_data\\l_finger_tip.stl"; // Or your full path
     char relativeFileName[1024];
-    
     int myMeshId = -1;
+    btConvexHullShape* convexShape = nullptr;
     if (b3ResourcePath::findResourcePath(stlPath, relativeFileName, 1024, 0))
     {
         GLInstanceGraphicsShape* gfxShape = LoadMeshFromSTL(relativeFileName, &fileIO);
@@ -66,8 +66,19 @@ void BridgeExample::initPhysics()
         else
         {
             printf("SUCCESS: Loaded %d vertices\n", gfxShape->m_numvertices);
+            convexShape = new btConvexHullShape();
             if (gfxShape && gfxShape->m_numvertices > 0)
             {
+                // 1. Add all STL vertices to the Convex Hull
+                for (int v = 0; v < gfxShape->m_numvertices; v++) {
+                    btVector3 vtx(
+                        gfxShape->m_vertices->at(v).xyzw[0],
+                        gfxShape->m_vertices->at(v).xyzw[1],
+                        gfxShape->m_vertices->at(v).xyzw[2]
+                    );
+                    convexShape->addPoint(vtx);
+                }
+                // 2. Register for graphics and get the mesh ID
                 myMeshId = m_guiHelper->getRenderInterface()->registerShape(
                     &gfxShape->m_vertices->at(0).xyzw[0],
                     gfxShape->m_numvertices,
@@ -86,61 +97,76 @@ void BridgeExample::initPhysics()
     }
 
     // 2. Standard Ground Creation
-    btBoxShape* groundShape = createBoxShape(btVector3(50, 50, 50));
+    btBoxShape* groundShape = createBoxShape(btVector3(50, 50, 50)); 
+
     createRigidBody(0, btTransform(btQuaternion(0,0,0,1), btVector3(0,-50,0)), groundShape);
-
     // 3. Create Planks and attach STL Graphics
-    btBoxShape* colShape = createBoxShape(btVector3(0.4, 0.2, 1.0));
-    btAlignedObjectArray<btRigidBody*> boxes;
-    btVector3 scaling(10, 10, 10); // Match your first script's scale
+        //btBoxShape* colShape = createBoxShape(btVector3(0.4, 0.2, 1.0)); //commented to use convex hull shape
+        
+        btAlignedObjectArray<btRigidBody*> boxes;
+        btVector3 scaling(10, 10, 10); 
+        convexShape->setLocalScaling(scaling);
 
-    for (int i = 0; i < TOTAL_PLANKS; ++i) {
-        btTransform trans;
-        trans.setIdentity();
-        trans.setOrigin(btVector3(i * 0.8 - 1.2, 5, 0));
+        for (int i = 0; i < TOTAL_PLANKS; ++i) {
+            btTransform trans;
+            trans.setIdentity();
+            trans.setOrigin(btVector3(i * 12.0, 5, 0));
 
-        btRigidBody* body = createRigidBody((i == 0 || i == TOTAL_PLANKS-1) ? 0 : 1.0f, trans, colShape);
-        boxes.push_back(body);
+            // Create Physics Body
+            btRigidBody* body = createRigidBody((i == 0 || i == TOTAL_PLANKS-1) ? 0 : 1.0f, trans, convexShape);
+            boxes.push_back(body);
 
-        if (myMeshId >= 0) {
-            m_guiHelper->getRenderInterface()->registerGraphicsInstance(
-                myMeshId, trans.getOrigin(), trans.getRotation(), 
-                btVector4(0, 0, 1, 1), scaling);
+            if (myMeshId >= 0) {
+                // 1. Register the graphics and get the ID
+                int graphicsId = m_guiHelper->getRenderInterface()->registerGraphicsInstance(
+                    myMeshId, trans.getOrigin(), trans.getRotation(), 
+                    btVector4(0, 0, 1, 1), scaling);
+
+                // 2. LINK: This enables physics interaction for the custom mesh
+                body->setUserIndex(graphicsId); 
+            }
+            else {
+                printf("DEBUG: Skipping graphics for plank %d - myMeshId is invalid!\n", i);
+            }
         }
-
-        // ... inside the loop ...
-        else {
-            printf("DEBUG: Skipping graphics - myMeshId is invalid!\n");
-        }
-    }
 
     printf("DEBUG: Adding Constraints\n");
     for (int i = 0; i < TOTAL_PLANKS - 1; ++i) {
-        btPoint2PointConstraint* leftSpring = new btPoint2PointConstraint(*boxes[i], *boxes[i+1], btVector3(-0.5, 0, -0.5), btVector3(0.5, 0, -0.5));
+        btPoint2PointConstraint* leftSpring = new btPoint2PointConstraint(*boxes[i], *boxes[i+1], btVector3(6.0, 0, -0.5), btVector3(-6.0, 0, -0.5));
         m_dynamicsWorld->addConstraint(leftSpring);
-        btPoint2PointConstraint* rightSpring = new btPoint2PointConstraint(*boxes[i], *boxes[i+1], btVector3(-0.5, 0, 0.5), btVector3(0.5, 0, 0.5));
+        btPoint2PointConstraint* rightSpring = new btPoint2PointConstraint(*boxes[i], *boxes[i+1], btVector3(6.0, 0, 0.5), btVector3(-6.0, 0, 0.5));
         m_dynamicsWorld->addConstraint(rightSpring);
     }
     
-    //     if (gfxShape) {
-    //     delete gfxShape;
-    // }
     m_guiHelper->syncPhysicsToGraphics(m_dynamicsWorld);
     printf("DEBUG: initPhysics Finished Successfully!\n");
     
 }
+// void BridgeExample::renderScene()
+// {
+//     // 1. Sync custom meshes (STL) to physics
+//     if (m_guiHelper)
+//     {
+//         m_guiHelper->syncPhysicsToGraphics(m_dynamicsWorld);
+//     }
+
+//     // 2. Draw everything (calls sync again internally and draws debug shapes)
+//     CommonRigidBodyBase::renderScene();
+// }
 
 void BridgeExample::renderScene()
 {
-    // Draws the ground and boxes
-    CommonRigidBodyBase::renderScene();
-
-    // Makes your OBJ mesh follow the physics boxes
-    if (m_guiHelper && m_guiHelper->getRenderInterface())
+    if (m_dynamicsWorld && m_dynamicsWorld->getDebugDrawer())
     {
-        m_guiHelper->syncPhysicsToGraphics(m_dynamicsWorld);
+        // This line draws the ACTUAL physics shapes
+        m_dynamicsWorld->debugDrawWorld();
     }
+
+    m_guiHelper->syncPhysicsToGraphics(m_dynamicsWorld);
+    CommonRigidBodyBase::renderScene();
 }
+
+
 CommonExampleInterface* StandaloneExampleCreateFunc(CommonExampleOptions& options)
 {
     return new BridgeExample(options.m_guiHelper);
